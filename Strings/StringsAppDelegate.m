@@ -15,13 +15,14 @@
 
 @synthesize window=_window;
 
-@synthesize viewController=_viewController;
+@synthesize navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
      
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = self.navigationController;
+    self.navigationController.navigationBar.translucent=YES;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -68,7 +69,7 @@
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [navigationController release];
     [super dealloc];
 }
 

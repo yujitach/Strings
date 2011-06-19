@@ -16,6 +16,10 @@
 		334203D713AD9B13000B8AC6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334203D513AD9B13000B8AC6 /* MainWindow.xib */; };
 		334203DA13AD9B13000B8AC6 /* StringsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334203D913AD9B13000B8AC6 /* StringsViewController.m */; };
 		334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334203DB13AD9B13000B8AC6 /* StringsViewController.xib */; };
+		334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 334203E913AD9F07000B8AC6 /* Conferences.plist */; };
+		334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 334203EC13ADA7C4000B8AC6 /* Chooser.m */; };
+		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
+		3381F69613ADCFFB00725323 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3381F69513ADCFFB00725323 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,22 @@
 		334203C313AD9B13000B8AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		334203C513AD9B13000B8AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		334203C713AD9B13000B8AC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		334203CB13AD9B13000B8AC6 /* Strings-Info.plist */ = {isa = PBXFileReference; path = "Strings-Info.plist"; sourceTree = "<group>"; };
+		334203CB13AD9B13000B8AC6 /* Strings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Strings-Info.plist"; sourceTree = "<group>"; };
 		334203CD13AD9B13000B8AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		334203CF13AD9B13000B8AC6 /* Strings-Prefix.pch */ = {isa = PBXFileReference; path = "Strings-Prefix.pch"; sourceTree = "<group>"; };
+		334203CF13AD9B13000B8AC6 /* Strings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Strings-Prefix.pch"; sourceTree = "<group>"; };
 		334203D013AD9B13000B8AC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		334203D213AD9B13000B8AC6 /* StringsAppDelegate.h */ = {isa = PBXFileReference; path = StringsAppDelegate.h; sourceTree = "<group>"; };
+		334203D213AD9B13000B8AC6 /* StringsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringsAppDelegate.h; sourceTree = "<group>"; };
 		334203D313AD9B13000B8AC6 /* StringsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringsAppDelegate.m; sourceTree = "<group>"; };
 		334203D613AD9B13000B8AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		334203D813AD9B13000B8AC6 /* StringsViewController.h */ = {isa = PBXFileReference; path = StringsViewController.h; sourceTree = "<group>"; };
+		334203D813AD9B13000B8AC6 /* StringsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringsViewController.h; sourceTree = "<group>"; };
 		334203D913AD9B13000B8AC6 /* StringsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringsViewController.m; sourceTree = "<group>"; };
 		334203DC13AD9B13000B8AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StringsViewController.xib; sourceTree = "<group>"; };
+		334203E913AD9F07000B8AC6 /* Conferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Conferences.plist; sourceTree = "<group>"; };
+		334203EB13ADA7C4000B8AC6 /* Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chooser.h; sourceTree = "<group>"; };
+		334203EC13ADA7C4000B8AC6 /* Chooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chooser.m; sourceTree = "<group>"; };
+		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		3381F68513ADB8AE00725323 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		3381F69513ADCFFB00725323 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		334203B413AD9B13000B8AC6 = {
 			isa = PBXGroup;
 			children = (
+				3381F69513ADCFFB00725323 /* Icon.png */,
 				334203C913AD9B13000B8AC6 /* Strings */,
 				334203C213AD9B13000B8AC6 /* Frameworks */,
 				334203C013AD9B13000B8AC6 /* Products */,
@@ -86,6 +97,11 @@
 				334203D913AD9B13000B8AC6 /* StringsViewController.m */,
 				334203DB13AD9B13000B8AC6 /* StringsViewController.xib */,
 				334203CA13AD9B13000B8AC6 /* Supporting Files */,
+				334203E913AD9F07000B8AC6 /* Conferences.plist */,
+				334203EB13ADA7C4000B8AC6 /* Chooser.h */,
+				334203EC13ADA7C4000B8AC6 /* Chooser.m */,
+				3381F68413ADB8AE00725323 /* Downloader.h */,
+				3381F68513ADB8AE00725323 /* Downloader.m */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -154,6 +170,8 @@
 				334203CE13AD9B13000B8AC6 /* InfoPlist.strings in Resources */,
 				334203D713AD9B13000B8AC6 /* MainWindow.xib in Resources */,
 				334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */,
+				334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */,
+				3381F69613ADCFFB00725323 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +185,8 @@
 				334203D113AD9B13000B8AC6 /* main.m in Sources */,
 				334203D413AD9B13000B8AC6 /* StringsAppDelegate.m in Sources */,
 				334203DA13AD9B13000B8AC6 /* StringsViewController.m in Sources */,
+				334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */,
+				3381F68613ADB8AE00725323 /* Downloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +301,7 @@
 				334203E213AD9B13000B8AC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

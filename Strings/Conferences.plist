@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Strings 2008</string>
+			<key>annotation</key>
+			<string>CERN</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/strings2008mirror/list2008.plist</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strings 2006</string>
+			<key>annotation</key>
+			<string>Beijing</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/strings2006mirror/list2006.plist</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strings 2000</string>
+			<key>annotation</key>
+			<string>Michigan</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/strings2000mirror/list2000.plist</string>
+		</dict>
+	</array>
+</dict>
+</plist>
