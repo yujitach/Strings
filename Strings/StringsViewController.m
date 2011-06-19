@@ -39,17 +39,23 @@
     CGRect cropBox= CGPDFPageGetBoxRect(pdfPage, kCGPDFMediaBox) ; 
     CGRect target;
     if(cropBox.size.height>cropBox.size.width){
-        target=CGRectMake(0,0,768,1024);
+            target=CGRectMake(0,0,768,1024);            
     }else{
-        target=CGRectMake(0,0,1024,768);        
+            target=CGRectMake(0,0,1024,768);        
     }
     float ratio=target.size.height/cropBox.size.height;
     float wratio=target.size.width/cropBox.size.width;
     if(wratio<ratio)ratio=wratio;
     float theight=ratio*cropBox.size.height;
     float twidth=ratio*cropBox.size.width;
-    UIGraphicsBeginImageContext(target.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
+    unsigned char *bitmap = malloc(target.size.width * target.size.height * sizeof(unsigned char) *4);
+    CGContextRef context =CGBitmapContextCreate(bitmap,
+                          target.size.width,
+                          target.size.height,
+                          8,
+                          target.size.width * 4,
+                          CGColorSpaceCreateDeviceRGB(),
+                          kCGImageAlphaPremultipliedFirst);
     CGContextSetCMYKFillColor(context, 0, 0, 0, 0, 1);
     CGContextTranslateCTM(context, 0,target.size.height);
     CGContextScaleCTM(context, 1, -1);
@@ -57,9 +63,20 @@
     CGContextFillRect(context,CGRectMake(0, 0, twidth, theight));
     CGContextScaleCTM(context, ratio, ratio);
     CGContextDrawPDFPage (context, pdfPage);
-    UIImage * pdfImage = UIGraphicsGetImageFromCurrentImageContext();//autoreleased
-    UIGraphicsEndImageContext();
-    return pdfImage;    
+    CGImageRef cgImage = CGBitmapContextCreateImage(context);
+    CGContextRelease(context);
+    free(bitmap);
+    int rotation=CGPDFPageGetRotationAngle(pdfPage);
+    UIImageOrientation orientation=UIImageOrientationDownMirrored;
+    if(rotation==90){
+        orientation=UIImageOrientationLeftMirrored;        
+    }else if(rotation==180){
+        orientation=UIImageOrientationUpMirrored;        
+    }else if(rotation==270){
+        orientation=UIImageOrientationRightMirrored;
+    }
+    return [UIImage imageWithCGImage:cgImage scale:1 orientation:orientation];
+    CGImageRelease(cgImage);
 }
 -(void)loadPage
 {
@@ -121,8 +138,10 @@
     Downloader *downloader=[[Downloader alloc] 
                             initWithURL:self.currentPDFURL
                             progress:^(Downloader*d){
-                                progressView.hidden=NO;
-                                progressView.progress=d.progress;
+                                if(d.url==self.currentPDFURL){
+                                    progressView.hidden=NO;
+                                    progressView.progress=d.progress;
+                                }
                             }done:^(Downloader*d){
                                 if(d.url==self.currentPDFURL){
                                     progressView.hidden=YES;
@@ -146,8 +165,10 @@
     self.navigationItem.leftBarButtonItem=button;
     self.navigationItem.title=@"";
     [button release];
+
     NSURL*mainPlist=[[NSBundle mainBundle] URLForResource:@"Conferences" withExtension:@"plist"];
     NSDictionary*dict=[NSDictionary dictionaryWithContentsOfURL:mainPlist];
+    
     Chooser*chooser=[[Chooser alloc] initWithDictionary:dict];
     UINavigationController*nvc=[[UINavigationController alloc] initWithRootViewController:chooser];
     UIPopoverController*pc=[[UIPopoverController alloc] initWithContentViewController:nvc];

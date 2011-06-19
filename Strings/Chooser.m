@@ -16,7 +16,15 @@
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
         // Custom initialization
-        array=[[[_dic allValues] objectAtIndex:0] retain];
+        array=[_dic valueForKey:@"conferences"];
+        if(!array){
+            array=[_dic valueForKey:@"entries"];   
+        }
+        [array retain];
+        NSString*name=[_dic valueForKey:@"name"];
+        if(name){
+            self.navigationItem.title=name;
+        }
     }
     return self;
 }
@@ -36,7 +44,7 @@
 }
 
 #pragma mark - Business logic
--(void)loadPlist:(NSString*)path
+-(void)loadPlist:(NSString*)path withTitle:(NSString*)title;
 {
     NSString*cachesFolder=[NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches"];
     NSString*fpath=[path stringByReplacingOccurrencesOfString:@"/" withString:@"@"];
@@ -46,10 +54,15 @@
     if(![fm fileExistsAtPath:cachePath]){
 	[fm createDirectoryAtPath:cachesFolder withIntermediateDirectories:YES attributes:nil error:NULL];
         NSData*plist=[NSData dataWithContentsOfURL:[NSURL URLWithString:path]];
-        [plist writeToFile:cachePath atomically:YES];
+        if(plist && [plist length]>0){
+            [plist writeToFile:cachePath atomically:YES];
+        }
     }
     [fm release];
-    NSDictionary*dict=[NSDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:cachePath]];
+    NSMutableDictionary*dict=[NSMutableDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:cachePath]];
+    if(![dict objectForKey:@"name"]){
+        [dict setObject:title forKey:@"name"];
+    }
     Chooser*chooser=[[Chooser alloc] initWithDictionary:dict];
     [self.navigationController pushViewController:chooser animated:YES];
     [chooser release];
@@ -191,7 +204,7 @@
     NSDictionary*entry=[array objectAtIndex:[indexPath row]];
     NSString*target=[entry objectForKey:@"target"];
     if([target hasSuffix:@"plist"]){
-        [self loadPlist:target];
+        [self loadPlist:target withTitle:[entry objectForKey:@"name"]];
     }else if([target hasSuffix:@"pdf"]){
         [self loadPDF:entry];        
     }

@@ -88,6 +88,12 @@
     if(dfb)dfb(self);
     //    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
-
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+    NSFileManager*fm=[[NSFileManager alloc] init];
+    [fh closeFile];
+    [fm removeItemAtPath:self.cachePath error:NULL];
+    [fm release];
+}
 
 @end

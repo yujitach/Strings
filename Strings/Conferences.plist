@@ -5,28 +5,76 @@
 	<key>conferences</key>
 	<array>
 		<dict>
+			<key>annotation</key>
+			<string>Texas A&amp;M</string>
 			<key>name</key>
-			<string>Strings 2008</string>
+			<string>Strings 2010</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2010/list2010.plist</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Rome</string>
+			<key>name</key>
+			<string>Strings 2009</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2009/list2009.plist</string>
+		</dict>
+		<dict>
 			<key>annotation</key>
 			<string>CERN</string>
+			<key>name</key>
+			<string>Strings 2008</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/strings2008mirror/list2008.plist</string>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2008/list2008.plist</string>
 		</dict>
 		<dict>
+			<key>annotation</key>
+			<string>Madrid</string>
 			<key>name</key>
-			<string>Strings 2006</string>
+			<string>Strings 2007</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2007/list2007.plist</string>
+		</dict>
+		<dict>
 			<key>annotation</key>
 			<string>Beijing</string>
+			<key>name</key>
+			<string>Strings 2006</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/strings2006mirror/list2006.plist</string>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2006/list2006.plist</string>
 		</dict>
 		<dict>
+			<key>annotation</key>
+			<string>Toronto</string>
 			<key>name</key>
-			<string>Strings 2000</string>
+			<string>Strings 2005</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2005/list2005.plist</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Paris</string>
+			<key>name</key>
+			<string>Strings 2004</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2004/list2004.plist</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Kyoto</string>
+			<key>name</key>
+			<string>Strings 2003</string>
+			<key>target</key>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2003/list2003.plist</string>
+		</dict>
+		<dict>
 			<key>annotation</key>
 			<string>Michigan</string>
+			<key>name</key>
+			<string>Strings 2000</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/strings2000mirror/list2000.plist</string>
+			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/2000/list2000.plist</string>
 		</dict>
 	</array>
 </dict>
