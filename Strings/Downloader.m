@@ -22,27 +22,16 @@
     else
         return 0;
 }
+-(NSString*)sizePath
+{
+    return [self.cachePath stringByAppendingString:@".size"];
+}
 -(Downloader*)initWithURL:(NSURL*)_url progress:(DownloadBlock)_dpb done:(DownloadBlock)_dfb;
 {
     self=[super init];
     self.url=_url;
     dfb=[_dfb copy];
     dpb=[_dpb copy];
-    
-    NSString*cachesFolder=[NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches"];
-    NSString*fpath=[[url absoluteString] stringByReplacingOccurrencesOfString:@"/" withString:@"@"];
-    fpath=[fpath stringByReplacingOccurrencesOfString:@":" withString:@"_"];
-    self.cachePath=[cachesFolder stringByAppendingPathComponent:fpath];
-    NSLog(@"%@",self.cachePath);
-    NSFileManager*fm=[[NSFileManager alloc] init];
-    if(![fm fileExistsAtPath:self.cachePath]){
-	[fm createDirectoryAtPath:cachesFolder withIntermediateDirectories:YES attributes:nil error:NULL];
-        [fm createFileAtPath:self.cachePath contents:nil attributes:nil];
-        [self download];
-    }else{
-        dfb(self);
-    }
-    [fm release];
     
     return self;
 }
@@ -59,17 +48,45 @@
     [super dealloc];
 }
 
+-(BOOL)fileIsOK
+{
+    NSFileManager*fm=[[[NSFileManager alloc] init] autorelease];
+    if ([fm fileExistsAtPath:self.cachePath]) {
+        NSString*size=[NSString stringWithContentsOfFile:self.sizePath encoding:NSUTF8StringEncoding error:NULL];
+        NSDictionary*fileDict=[fm attributesOfItemAtPath:self.cachePath error:NULL];
+        unsigned long long expectedSize=[fileDict fileSize];
+        if([size isEqualToString:[NSString stringWithFormat:@"%lld",expectedSize]]){
+            return YES;
+        }
+//        NSLog(@"The url %@ didn't seem to be nicely downloaded",self.url);
+    }
+    return NO;
+}
+
 -(void)download
 {
-//    NSLog(@"fetching:%@",url);
-    NSURLRequest* urlRequest=[NSURLRequest requestWithURL:url
-					      cachePolicy:NSURLRequestUseProtocolCachePolicy
-					  timeoutInterval:300];
-    
-    fh=[[NSFileHandle fileHandleForWritingAtPath:self.cachePath] retain];
-    connection=[[NSURLConnection alloc] initWithRequest:urlRequest
-					       delegate:self];
-//    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+    NSFileManager*fm=[[NSFileManager alloc] init];
+    NSString*cachesFolder=[NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches"];
+    NSString*fpath=[[url absoluteString] stringByReplacingOccurrencesOfString:@"/" withString:@"@"];
+    fpath=[fpath stringByReplacingOccurrencesOfString:@":" withString:@"_"];
+    self.cachePath=[cachesFolder stringByAppendingPathComponent:fpath];    
+    if(![self fileIsOK]){
+	[fm createDirectoryAtPath:cachesFolder withIntermediateDirectories:YES attributes:nil error:NULL];
+        [fm createFileAtPath:self.cachePath contents:nil attributes:nil];
+        
+        NSURLRequest* urlRequest=[NSURLRequest requestWithURL:url
+                                                  cachePolicy:NSURLRequestUseProtocolCachePolicy
+                                              timeoutInterval:300];
+        
+        fh=[[NSFileHandle fileHandleForWritingAtPath:self.cachePath] retain];
+        connection=[[NSURLConnection alloc] initWithRequest:urlRequest
+                                                   delegate:self];
+        
+        
+    }else{
+        dfb(self);
+    }
+    [fm release];
 }
 -(void)connection:(NSURLConnection *)c didReceiveData:(NSData *)data
 {
@@ -81,6 +98,7 @@
 {
     response=[resp retain];
     expected=response.expectedContentLength;
+    [[NSString stringWithFormat:@"%lld",(unsigned long long)expected] writeToFile:self.sizePath atomically:YES];
 }
 -(void)connectionDidFinishLoading:(NSURLConnection*)c
 {

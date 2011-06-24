@@ -18,8 +18,11 @@
 		334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334203DB13AD9B13000B8AC6 /* StringsViewController.xib */; };
 		334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 334203E913AD9F07000B8AC6 /* Conferences.plist */; };
 		334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 334203EC13ADA7C4000B8AC6 /* Chooser.m */; };
+		3361215613B011D2004BB4A6 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3361215513B011D2004BB4A6 /* Entitlements.plist */; };
 		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
 		3381F69613ADCFFB00725323 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3381F69513ADCFFB00725323 /* Icon.png */; };
+		33E4C90A13B03C3F008E8604 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33E4C90913B03C3F008E8604 /* Default-Landscape~ipad.png */; };
+		33E4C90E13B03C74008E8604 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33E4C90D13B03C74008E8604 /* Default-Portrait~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +43,12 @@
 		334203E913AD9F07000B8AC6 /* Conferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Conferences.plist; sourceTree = "<group>"; };
 		334203EB13ADA7C4000B8AC6 /* Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chooser.h; sourceTree = "<group>"; };
 		334203EC13ADA7C4000B8AC6 /* Chooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chooser.m; sourceTree = "<group>"; };
+		3361215513B011D2004BB4A6 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
 		3381F68513ADB8AE00725323 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 		3381F69513ADCFFB00725323 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		33E4C90913B03C3F008E8604 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		33E4C90D13B03C74008E8604 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 		334203B413AD9B13000B8AC6 = {
 			isa = PBXGroup;
 			children = (
+				33E4C90D13B03C74008E8604 /* Default-Portrait~ipad.png */,
+				33E4C90913B03C3F008E8604 /* Default-Landscape~ipad.png */,
+				3361215513B011D2004BB4A6 /* Entitlements.plist */,
 				3381F69513ADCFFB00725323 /* Icon.png */,
 				334203C913AD9B13000B8AC6 /* Strings */,
 				334203C213AD9B13000B8AC6 /* Frameworks */,
@@ -172,6 +181,9 @@
 				334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */,
 				334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */,
 				3381F69613ADCFFB00725323 /* Icon.png in Resources */,
+				3361215613B011D2004BB4A6 /* Entitlements.plist in Resources */,
+				33E4C90A13B03C3F008E8604 /* Default-Landscape~ipad.png in Resources */,
+				33E4C90E13B03C74008E8604 /* Default-Portrait~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +284,51 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		3361215713B013A0004BB4A6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Distribution;
+		};
+		3361215813B013A0004BB4A6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
+				INFOPLIST_FILE = "Strings/Strings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -290,6 +338,7 @@
 			buildConfigurations = (
 				334203DE13AD9B13000B8AC6 /* Debug */,
 				334203DF13AD9B13000B8AC6 /* Release */,
+				3361215713B013A0004BB4A6 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -299,6 +348,7 @@
 			buildConfigurations = (
 				334203E113AD9B13000B8AC6 /* Debug */,
 				334203E213AD9B13000B8AC6 /* Release */,
+				3361215813B013A0004BB4A6 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

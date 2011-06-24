@@ -36,7 +36,8 @@
 -(UIImage*)imageAtPageNumber:(NSUInteger)pageNumber
 {
     CGPDFPageRef pdfPage = CGPDFDocumentGetPage (currentPDF, pageNumber);
-    CGRect cropBox= CGPDFPageGetBoxRect(pdfPage, kCGPDFMediaBox) ; 
+    CGRect cropBox= CGPDFPageGetBoxRect(pdfPage, kCGPDFCropBox) ; 
+    CGRect mediaBox= CGPDFPageGetBoxRect(pdfPage, kCGPDFMediaBox) ; 
     CGRect target;
     if(cropBox.size.height>cropBox.size.width){
             target=CGRectMake(0,0,768,1024);            
@@ -49,19 +50,23 @@
     float theight=ratio*cropBox.size.height;
     float twidth=ratio*cropBox.size.width;
     unsigned char *bitmap = malloc(target.size.width * target.size.height * sizeof(unsigned char) *4);
+    CGColorSpaceRef deviceRGB=CGColorSpaceCreateDeviceRGB();
     CGContextRef context =CGBitmapContextCreate(bitmap,
                           target.size.width,
                           target.size.height,
                           8,
                           target.size.width * 4,
-                          CGColorSpaceCreateDeviceRGB(),
+                          deviceRGB,
                           kCGImageAlphaPremultipliedFirst);
+    CGColorSpaceRelease(deviceRGB);
     CGContextSetCMYKFillColor(context, 0, 0, 0, 0, 1);
     CGContextTranslateCTM(context, 0,target.size.height);
     CGContextScaleCTM(context, 1, -1);
     CGContextTranslateCTM(context, (target.size.width-twidth)/2,(target.size.height-theight)/2);
     CGContextFillRect(context,CGRectMake(0, 0, twidth, theight));
     CGContextScaleCTM(context, ratio, ratio);
+    CGContextTranslateCTM(context, -(mediaBox.size.width-cropBox.size.width),-(mediaBox.size.height-cropBox.size.height));
+//    CGContextClipToRect(context, CGRectMake(0,0, cropBox.size.width, cropBox.size.height));
     CGContextDrawPDFPage (context, pdfPage);
     CGImageRef cgImage = CGBitmapContextCreateImage(context);
     CGContextRelease(context);
@@ -75,8 +80,9 @@
     }else if(rotation==270){
         orientation=UIImageOrientationRightMirrored;
     }
-    return [UIImage imageWithCGImage:cgImage scale:1 orientation:orientation];
+    UIImage*image=[UIImage imageWithCGImage:cgImage scale:1 orientation:orientation];
     CGImageRelease(cgImage);
+    return image;
 }
 -(void)loadPage
 {
@@ -84,6 +90,7 @@
     [self.navigationController setNavigationBarHidden:YES animated:YES];
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
     [imageView setImage:image];
+    self.navigationItem.title=[NSString stringWithFormat:@"%@, %d of %d",self.speaker,(int)currentPage,(int)pages];
 }
 
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
@@ -93,6 +100,8 @@
     CGSize size=self.view.bounds.size;
     CGFloat posX=point.x/size.width;
     if(posX<.3){
+        if(!progressView.hidden)
+            return;
         currentPage--;
         if(currentPage<1){
             currentPage=1;
@@ -100,6 +109,8 @@
             [self loadPage];
         }
     }else if(posX>.7){
+        if(!progressView.hidden)
+            return;
         currentPage++;
         if(currentPage>pages){
             currentPage=pages;
@@ -135,22 +146,38 @@
     self.speaker=[entry objectForKey:@"name"];
     self.navigationItem.title=self.speaker;
     self.currentPDFURL=[NSURL URLWithString:[entry objectForKey:@"target"]];
-    Downloader *downloader=[[Downloader alloc] 
-                            initWithURL:self.currentPDFURL
-                            progress:^(Downloader*d){
-                                if(d.url==self.currentPDFURL){
-                                    progressView.hidden=NO;
-                                    progressView.progress=d.progress;
-                                }
-                            }done:^(Downloader*d){
-                                if(d.url==self.currentPDFURL){
-                                    progressView.hidden=YES;
-                                    [self loadPDF:d.fileURL];
-                                }
-                                [downloaders removeObject:d];
-                            }];
-    [downloaders addObject:downloader];
-    [downloader release];
+    BOOL downloading=NO;
+    for(Downloader*x in downloaders){
+//        NSLog(@"%@ is downloading...",x.url);
+        if([x.url isEqual:self.currentPDFURL]){
+            downloading=YES;
+//            NSLog(@"download of %@ already going on!",self.currentPDFURL);
+            break;
+        }
+    }
+    if(!downloading){
+        Downloader *downloader=[[Downloader alloc] 
+                                initWithURL:self.currentPDFURL
+                                progress:^(Downloader*d){
+                                    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+                                    if([d.url isEqual:self.currentPDFURL]){
+                                        progressView.hidden=NO;
+                                        progressView.progress=d.progress;
+                                        imageView.alpha=.5;
+                                    }
+                                }done:^(Downloader*d){
+                                    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+                                    if([d.url isEqual:self.currentPDFURL]){
+                                        progressView.hidden=YES;
+                                        imageView.alpha=1;
+                                        [self loadPDF:d.fileURL];
+                                    }
+                                    [downloaders removeObject:d];
+                                }];
+        [downloaders addObject:downloader];
+        [downloader download];
+        [downloader release];
+    }
 }
 
 #pragma mark - View lifecycle
@@ -161,7 +188,7 @@
 {
     [super viewDidLoad];
     
-    UIBarButtonItem*button=[[UIBarButtonItem alloc] initWithTitle:@"Conferences" style:UIBarButtonItemStylePlain target:self action:@selector(pop:)];
+    UIBarButtonItem*button=[[UIBarButtonItem alloc] initWithTitle:@"Slides" style:UIBarButtonItemStylePlain target:self action:@selector(pop:)];
     self.navigationItem.leftBarButtonItem=button;
     self.navigationItem.title=@"";
     [button release];
