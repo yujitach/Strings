@@ -39,10 +39,11 @@
     CGRect cropBox= CGPDFPageGetBoxRect(pdfPage, kCGPDFCropBox) ; 
     CGRect mediaBox= CGPDFPageGetBoxRect(pdfPage, kCGPDFMediaBox) ; 
     CGRect target;
+    CGFloat scale=[UIScreen mainScreen].scale;
     if(cropBox.size.height>cropBox.size.width){
-            target=CGRectMake(0,0,768,1024);            
+            target=CGRectMake(0,0,768*scale,1024*scale);            
     }else{
-            target=CGRectMake(0,0,1024,768);        
+            target=CGRectMake(0,0,1024*scale,768*scale);        
     }
     float ratio=target.size.height/cropBox.size.height;
     float wratio=target.size.width/cropBox.size.width;
@@ -80,7 +81,7 @@
     }else if(rotation==270){
         orientation=UIImageOrientationRightMirrored;
     }
-    UIImage*image=[UIImage imageWithCGImage:cgImage scale:1 orientation:orientation];
+    UIImage*image=[UIImage imageWithCGImage:cgImage scale:scale orientation:orientation];
     CGImageRelease(cgImage);
     return image;
 }

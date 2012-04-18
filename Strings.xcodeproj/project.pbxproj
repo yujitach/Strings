@@ -19,6 +19,9 @@
 		334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 334203E913AD9F07000B8AC6 /* Conferences.plist */; };
 		334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 334203EC13ADA7C4000B8AC6 /* Chooser.m */; };
 		3361215613B011D2004BB4A6 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3361215513B011D2004BB4A6 /* Entitlements.plist */; };
+		3377123E153EEAE7004F040D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377123D153EEAE7004F040D /* Icon@2x.png */; };
+		33771240153EEF2C004F040D /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377123F153EEF2C004F040D /* Default-Landscape@2x~ipad.png */; };
+		33771242153EEF35004F040D /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33771241153EEF35004F040D /* Default-Portrait@2x~ipad.png */; };
 		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
 		3381F69613ADCFFB00725323 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3381F69513ADCFFB00725323 /* Icon.png */; };
 		33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D884D913C4B36A0089CFE7 /* Reachability.m */; };
@@ -46,6 +49,9 @@
 		334203EB13ADA7C4000B8AC6 /* Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chooser.h; sourceTree = "<group>"; };
 		334203EC13ADA7C4000B8AC6 /* Chooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chooser.m; sourceTree = "<group>"; };
 		3361215513B011D2004BB4A6 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		3377123D153EEAE7004F040D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3377123F153EEF2C004F040D /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		33771241153EEF35004F040D /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
 		3381F68513ADB8AE00725323 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 		3381F69513ADCFFB00725323 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -74,10 +80,13 @@
 		334203B413AD9B13000B8AC6 = {
 			isa = PBXGroup;
 			children = (
+				33771241153EEF35004F040D /* Default-Portrait@2x~ipad.png */,
+				3377123F153EEF2C004F040D /* Default-Landscape@2x~ipad.png */,
 				33E4C90D13B03C74008E8604 /* Default-Portrait~ipad.png */,
 				33E4C90913B03C3F008E8604 /* Default-Landscape~ipad.png */,
 				3361215513B011D2004BB4A6 /* Entitlements.plist */,
 				3381F69513ADCFFB00725323 /* Icon.png */,
+				3377123D153EEAE7004F040D /* Icon@2x.png */,
 				334203C913AD9B13000B8AC6 /* Strings */,
 				334203C213AD9B13000B8AC6 /* Frameworks */,
 				334203C013AD9B13000B8AC6 /* Products */,
@@ -194,6 +203,9 @@
 				3361215613B011D2004BB4A6 /* Entitlements.plist in Resources */,
 				33E4C90A13B03C3F008E8604 /* Default-Landscape~ipad.png in Resources */,
 				33E4C90E13B03C74008E8604 /* Default-Portrait~ipad.png in Resources */,
+				3377123E153EEAE7004F040D /* Icon@2x.png in Resources */,
+				33771240153EEF2C004F040D /* Default-Landscape@2x~ipad.png in Resources */,
+				33771242153EEF35004F040D /* Default-Portrait@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -305,6 +318,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -339,6 +353,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
