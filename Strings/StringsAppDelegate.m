@@ -7,15 +7,30 @@
 //
 
 #import "StringsAppDelegate.h"
-
 #import "StringsViewController.h"
+#import "Reachability.h"
 
 @implementation StringsAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window=_window,reach;
 
 @synthesize navigationController;
+#pragma mark Reachability Warning
+- (void) reachabilityChanged: (NSNotification* )note
+{
+    NetworkStatus status=[self.reach currentReachabilityStatus];
+    if(status==NotReachable){
+	UIAlertView*alert=[[UIAlertView alloc] initWithTitle:@"Network not available" 
+						     message:@"Connetion to the mirror is lost. You can only read previously donwloaded slides." 
+						    delegate:nil
+					   cancelButtonTitle:@"OK"
+					   otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+    }
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -24,6 +39,12 @@
     self.window.rootViewController = self.navigationController;
     self.navigationController.navigationBar.translucent=YES;
     [self.window makeKeyAndVisible];
+    
+    self.reach=[Reachability reachabilityWithHostName:@"www.sns.ias.edu"];
+    [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+    [self.reach startNotifier];
+
+    
     return YES;
 }
 

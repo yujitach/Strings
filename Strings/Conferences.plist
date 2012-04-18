@@ -6,11 +6,19 @@
 	<array>
 		<dict>
 			<key>annotation</key>
+			<string>Uppsala</string>
+			<key>name</key>
+			<string>Strings 2011</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2011.plist</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
 			<string>Texas A&amp;M</string>
 			<key>name</key>
 			<string>Strings 2010</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2010.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2010.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -18,7 +26,7 @@
 			<key>name</key>
 			<string>Strings 2009</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2009.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2009.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -26,7 +34,7 @@
 			<key>name</key>
 			<string>Strings 2008</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2008.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2008.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -34,7 +42,7 @@
 			<key>name</key>
 			<string>Strings 2007</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2007.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2007.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -42,7 +50,7 @@
 			<key>name</key>
 			<string>Strings 2006</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2006.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2006.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -50,7 +58,7 @@
 			<key>name</key>
 			<string>Strings 2005</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2005.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2005.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -58,7 +66,7 @@
 			<key>name</key>
 			<string>Strings 2004</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2004.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2004.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -66,7 +74,7 @@
 			<key>name</key>
 			<string>Strings 2003</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2003.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2003.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -74,7 +82,7 @@
 			<key>name</key>
 			<string>Strings 2002</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2002.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2002.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -82,7 +90,7 @@
 			<key>name</key>
 			<string>Strings 2001</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2001.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2001.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -90,7 +98,7 @@
 			<key>name</key>
 			<string>Strings 2000</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist2000.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2000.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -98,7 +106,7 @@
 			<key>name</key>
 			<string>Strings 1999</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist1999.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist1999.plist</string>
 		</dict>
 		<dict>
 			<key>annotation</key>
@@ -106,7 +114,7 @@
 			<key>name</key>
 			<string>Strings 1998</string>
 			<key>target</key>
-			<string>http://www.sns.ias.edu/~yujitach/stringsmirrors/xlist1998.plist</string>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist1998.plist</string>
 		</dict>
 	</array>
 </dict>

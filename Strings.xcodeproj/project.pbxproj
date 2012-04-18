@@ -21,6 +21,8 @@
 		3361215613B011D2004BB4A6 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3361215513B011D2004BB4A6 /* Entitlements.plist */; };
 		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
 		3381F69613ADCFFB00725323 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3381F69513ADCFFB00725323 /* Icon.png */; };
+		33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D884D913C4B36A0089CFE7 /* Reachability.m */; };
+		33D884E213C4B49C0089CFE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */; };
 		33E4C90A13B03C3F008E8604 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33E4C90913B03C3F008E8604 /* Default-Landscape~ipad.png */; };
 		33E4C90E13B03C74008E8604 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33E4C90D13B03C74008E8604 /* Default-Portrait~ipad.png */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,9 @@
 		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
 		3381F68513ADB8AE00725323 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 		3381F69513ADCFFB00725323 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		33D884D813C4B36A0089CFE7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		33D884D913C4B36A0089CFE7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		33E4C90913B03C3F008E8604 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		33E4C90D13B03C74008E8604 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +64,7 @@
 				334203C413AD9B13000B8AC6 /* UIKit.framework in Frameworks */,
 				334203C613AD9B13000B8AC6 /* Foundation.framework in Frameworks */,
 				334203C813AD9B13000B8AC6 /* CoreGraphics.framework in Frameworks */,
+				33D884E213C4B49C0089CFE7 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +95,7 @@
 		334203C213AD9B13000B8AC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */,
 				334203C313AD9B13000B8AC6 /* UIKit.framework */,
 				334203C513AD9B13000B8AC6 /* Foundation.framework */,
 				334203C713AD9B13000B8AC6 /* CoreGraphics.framework */,
@@ -99,6 +106,8 @@
 		334203C913AD9B13000B8AC6 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				33D884D813C4B36A0089CFE7 /* Reachability.h */,
+				33D884D913C4B36A0089CFE7 /* Reachability.m */,
 				334203D213AD9B13000B8AC6 /* StringsAppDelegate.h */,
 				334203D313AD9B13000B8AC6 /* StringsAppDelegate.m */,
 				334203D513AD9B13000B8AC6 /* MainWindow.xib */,
@@ -152,6 +161,7 @@
 		334203B613AD9B13000B8AC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "東京大学";
 			};
 			buildConfigurationList = 334203B913AD9B13000B8AC6 /* Build configuration list for PBXProject "Strings" */;
@@ -199,6 +209,7 @@
 				334203DA13AD9B13000B8AC6 /* StringsViewController.m in Sources */,
 				334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */,
 				3381F68613ADB8AE00725323 /* Downloader.m in Sources */,
+				33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,6 +302,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
@@ -323,6 +336,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;

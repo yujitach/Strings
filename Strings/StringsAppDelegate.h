@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class StringsViewController;
-
+@class Reachability;
 @interface StringsAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
+@property (nonatomic, retain) Reachability *reach;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
