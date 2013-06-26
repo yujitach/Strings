@@ -12,5 +12,5 @@
 @interface Chooser : UITableViewController<UINavigationControllerDelegate> {
     NSArray*array;
 }
-
+-(Chooser*)initWithDictionary:(NSDictionary*)dict;
 @end

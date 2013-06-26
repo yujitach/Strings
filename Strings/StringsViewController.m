@@ -209,7 +209,7 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(openPDF:) name:@"openPDF" object:nil];
     
-    UIPinchGestureRecognizer*r=[[UILongPressGestureRecognizer alloc] initWithTarget:self
+    UILongPressGestureRecognizer*r=[[UILongPressGestureRecognizer alloc] initWithTarget:self
 									 action:@selector(longPressed:)];
     [self.view addGestureRecognizer:r];
     [r release];
