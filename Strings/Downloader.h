@@ -23,8 +23,8 @@ typedef void (^DownloadBlock)(Downloader*d);
 -(Downloader*)initWithURL:(NSURL*)_url progress:(DownloadBlock)_dpb done:(DownloadBlock)_dfb;
 -(void)download;
 
-@property (nonatomic, retain) NSString*cachePath;
-@property (nonatomic, retain) NSURL*url;
-@property (nonatomic, readonly) NSURL*fileURL;
+@property (nonatomic, strong) NSString*cachePath;
+@property (nonatomic, strong) NSURL*url;
+@property (unsafe_unretained, nonatomic, readonly) NSURL*fileURL;
 @property (nonatomic, readonly) float progress;
 @end

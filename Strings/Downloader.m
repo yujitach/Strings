@@ -36,21 +36,10 @@
     return self;
 }
 
--(void)dealloc
-{
-    [url release];
-    [dfb release];
-    [dpb release];
-    [cachePath release];
-    [fh release];
-    [connection release];
-    [response release];
-    [super dealloc];
-}
 
 -(BOOL)fileIsOK
 {
-    NSFileManager*fm=[[[NSFileManager alloc] init] autorelease];
+    NSFileManager*fm=[[NSFileManager alloc] init];
     if ([fm fileExistsAtPath:self.cachePath]) {
         NSString*size=[NSString stringWithContentsOfFile:self.sizePath encoding:NSUTF8StringEncoding error:NULL];
         NSDictionary*fileDict=[fm attributesOfItemAtPath:self.cachePath error:NULL];
@@ -78,7 +67,7 @@
                                                   cachePolicy:NSURLRequestUseProtocolCachePolicy
                                               timeoutInterval:300];
         
-        fh=[[NSFileHandle fileHandleForWritingAtPath:self.cachePath] retain];
+        fh=[NSFileHandle fileHandleForWritingAtPath:self.cachePath];
         connection=[[NSURLConnection alloc] initWithRequest:urlRequest
                                                    delegate:self];
         
@@ -86,7 +75,6 @@
     }else{
         dfb(self);
     }
-    [fm release];
 }
 -(void)connection:(NSURLConnection *)c didReceiveData:(NSData *)data
 {
@@ -96,7 +84,7 @@
 }
 -(void)connection:(NSURLConnection*)c didReceiveResponse:(NSURLResponse*)resp
 {
-    response=[resp retain];
+    response=resp;
     expected=response.expectedContentLength;
     [[NSString stringWithFormat:@"%lld",(unsigned long long)expected] writeToFile:self.sizePath atomically:YES];
 }
@@ -111,7 +99,6 @@
     NSFileManager*fm=[[NSFileManager alloc] init];
     [fh closeFile];
     [fm removeItemAtPath:self.cachePath error:NULL];
-    [fm release];
 }
 
 @end

@@ -11,12 +11,8 @@
 #import "Downloader.h"
 
 @implementation StringsViewController
-@synthesize imageView,popoverController,progressView;
-@synthesize speaker,currentPDFURL;
-- (void)dealloc
-{
-    [super dealloc];
-}
+@synthesize imageView,popoverController,sharePopoverController,progressView;
+@synthesize speaker,currentPDFURL,share;
 
 - (void)didReceiveMemoryWarning
 {
@@ -93,7 +89,32 @@
     [imageView setImage:image];
     self.navigationItem.title=[NSString stringWithFormat:@"%@, %d of %d",self.speaker,(int)currentPage,(int)pages];
 }
-
+-(void)minusonepage
+{
+    if(!progressView.hidden)
+        return;
+    currentPage--;
+    if(currentPage<1){
+        currentPage=1;
+    }else{
+        [self loadPage];
+    }    
+}
+-(void)plusonepage
+{
+    if(!progressView.hidden)
+        return;
+    currentPage++;
+    if(currentPage>pages){
+        currentPage=pages;
+    }else{
+        [self loadPage];
+    }    
+}
+-(void)bringupmenu{
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch*t=[[touches objectEnumerator] nextObject];
@@ -101,52 +122,53 @@
     CGSize size=self.view.bounds.size;
     CGFloat posX=point.x/size.width;
     if(posX<.3){
-        if(!progressView.hidden)
-            return;
-        currentPage--;
-        if(currentPage<1){
-            currentPage=1;
-        }else{
-            [self loadPage];
-        }
+        [self minusonepage];
     }else if(posX>.7){
-        if(!progressView.hidden)
-            return;
-        currentPage++;
-        if(currentPage>pages){
-            currentPage=pages;
-        }else{
-            [self loadPage];    
-        }
+        [self plusonepage];
     }else{
-        [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
-        [self.navigationController setNavigationBarHidden:NO animated:YES];    
-
+        [self bringupmenu];
     }
 }
 -(IBAction)longPressed:(id)sender
 {
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    [self bringupmenu];
 }
-
+-(IBAction)swipedLeft:(id)sender
+{
+    [self plusonepage];
+}
+-(IBAction)swipedRight:(id)sender
+{
+    [self minusonepage];
+}
+-(IBAction)share:(UIBarButtonItem*)shareButton
+{
+    NSString*comment=[NSString stringWithFormat:@"Check out the talk by %@ in %@: %@",entry[@"name"],entry[@"parentName"],entry[@"target"]];
+    UIActivityViewController*avc=[[UIActivityViewController alloc] initWithActivityItems:@[comment] applicationActivities:nil];
+    sharePopoverController=[[UIPopoverController alloc] initWithContentViewController:avc];
+    [sharePopoverController presentPopoverFromBarButtonItem:shareButton
+			      permittedArrowDirections:UIPopoverArrowDirectionUp
+					      animated:YES];
+    
+}
 -(void)loadPDF:(NSURL*)fileURL
 {
     if(currentPDF){
         CGPDFDocumentRelease(currentPDF);
     }
-    currentPDF=CGPDFDocumentCreateWithURL((CFURLRef)fileURL);
+    currentPDF=CGPDFDocumentCreateWithURL((__bridge CFURLRef)fileURL);
     pages=CGPDFDocumentGetNumberOfPages(currentPDF);
     currentPage=1;
     [self loadPage];
 }
 -(void)openPDF:(NSNotification*)notification
 {
-    NSDictionary*entry=notification.object;
+    entry=notification.object;
     [popoverController dismissPopoverAnimated:YES];
-    self.speaker=[entry objectForKey:@"name"];
+    share.enabled=YES;
+    self.speaker=entry[@"name"];
     self.navigationItem.title=self.speaker;
-    self.currentPDFURL=[NSURL URLWithString:[entry objectForKey:@"target"]];
+    self.currentPDFURL=[NSURL URLWithString:entry[@"target"]];
     BOOL downloading=NO;
     for(Downloader*x in downloaders){
 //        NSLog(@"%@ is downloading...",x.url);
@@ -177,7 +199,6 @@
                                 }];
         [downloaders addObject:downloader];
         [downloader download];
-        [downloader release];
     }
 }
 
@@ -192,8 +213,11 @@
     UIBarButtonItem*button=[[UIBarButtonItem alloc] initWithTitle:@"Slides" style:UIBarButtonItemStylePlain target:self action:@selector(pop:)];
     self.navigationItem.leftBarButtonItem=button;
     self.navigationItem.title=@"";
-    [button release];
 
+    share=[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(share:)];
+    share.enabled=NO;
+    self.navigationItem.rightBarButtonItem=share;
+    
     NSURL*mainPlist=[[NSBundle mainBundle] URLForResource:@"Conferences" withExtension:@"plist"];
     NSDictionary*dict=[NSDictionary dictionaryWithContentsOfURL:mainPlist];
     
@@ -201,9 +225,6 @@
     UINavigationController*nvc=[[UINavigationController alloc] initWithRootViewController:chooser];
     UIPopoverController*pc=[[UIPopoverController alloc] initWithContentViewController:nvc];
     self.popoverController = pc;
-    [pc release];
-    [nvc release];
-    [chooser release];
     
     downloaders=[[NSMutableArray alloc] init];
     
@@ -212,7 +233,12 @@
     UILongPressGestureRecognizer*r=[[UILongPressGestureRecognizer alloc] initWithTarget:self
 									 action:@selector(longPressed:)];
     [self.view addGestureRecognizer:r];
-    [r release];
+    UISwipeGestureRecognizer*swL=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipedLeft:)];
+    swL.direction=UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:swL];
+    UISwipeGestureRecognizer*swR=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipedRight:)];
+    swR.direction=UISwipeGestureRecognizerDirectionRight;
+    [self.view addGestureRecognizer:swR];
 
     
 }

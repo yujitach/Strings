@@ -20,8 +20,7 @@
         if(!array){
             array=[_dic valueForKey:@"entries"];   
         }
-        [array retain];
-        NSString*name=[_dic valueForKey:@"name"];
+        name=[_dic valueForKey:@"name"];
         if(name){
             self.navigationItem.title=name;
         }
@@ -29,11 +28,6 @@
     return self;
 }
 
-- (void)dealloc
-{
-    [array release];
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -58,18 +52,18 @@
             [plist writeToFile:cachePath atomically:YES];
         }
     }
-    [fm release];
     NSMutableDictionary*dict=[NSMutableDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:cachePath]];
-    if(![dict objectForKey:@"name"]){
-        [dict setObject:title forKey:@"name"];
+    if(!dict[@"name"]){
+        dict[@"name"] = title;
     }
     Chooser*chooser=[[Chooser alloc] initWithDictionary:dict];
     [self.navigationController pushViewController:chooser animated:YES];
-    [chooser release];
 }
 -(void)loadPDF:(NSDictionary*)entry
 {
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"openPDF" object:entry];
+    NSMutableDictionary*e=[entry mutableCopy];
+    e[@"parentName"]=name;
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"openPDF" object:e];
 }
 #pragma mark - View lifecycle
 
@@ -137,20 +131,20 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
     // Configure the cell...
-    NSDictionary*entry=[array objectAtIndex:[indexPath row]];
-    NSString*name=[entry objectForKey:@"name"];
-    NSString*annotation=[entry objectForKey:@"annotation"];
-    NSRange r=[name rangeOfString:@"("];
+    NSDictionary*entry=array[[indexPath row]];
+    NSString*nname=entry[@"name"];
+    NSString*annotation=entry[@"annotation"];
+    NSRange r=[nname rangeOfString:@"("];
     if(r.location!=NSNotFound){
-        name=[name substringWithRange:NSMakeRange(0,r.location)];
+        nname=[nname substringWithRange:NSMakeRange(0,r.location)];
     }
-    cell.textLabel.text=name;
+    cell.textLabel.text=nname;
     cell.detailTextLabel.text=annotation;
-    NSString*target=[entry objectForKey:@"target"];
+    NSString*target=entry[@"target"];
     if([target hasSuffix:@"plist"]){
         cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     }
@@ -201,10 +195,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
-    NSDictionary*entry=[array objectAtIndex:[indexPath row]];
-    NSString*target=[entry objectForKey:@"target"];
+    NSDictionary*entry=array[[indexPath row]];
+    NSString*target=entry[@"target"];
     if([target hasSuffix:@"plist"]){
-        [self loadPlist:target withTitle:[entry objectForKey:@"name"]];
+        [self loadPlist:target withTitle:entry[@"name"]];
     }else if([target hasSuffix:@"pdf"]){
         [self loadPDF:entry];        
     }

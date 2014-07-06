@@ -27,7 +27,6 @@
 					   cancelButtonTitle:@"OK"
 					   otherButtonTitles:nil];
 	[alert show];
-	[alert release];
     }
     
 }
@@ -87,11 +86,5 @@
      */
 }
 
-- (void)dealloc
-{
-    [_window release];
-    [navigationController release];
-    [super dealloc];
-}
 
 @end

@@ -13,12 +13,15 @@
     CGPDFDocumentRef currentPDF;
     NSUInteger pages;
     NSUInteger currentPage;
+    NSDictionary*entry;
 }
-@property (nonatomic, retain) IBOutlet UIImageView*imageView;
-@property (nonatomic, retain) IBOutlet UIProgressView*progressView;
-@property (nonatomic, retain) UIPopoverController *popoverController;
+@property (nonatomic, strong) IBOutlet UIImageView*imageView;
+@property (nonatomic, strong) IBOutlet UIProgressView*progressView;
+@property (nonatomic, strong) UIPopoverController *popoverController;
+@property (nonatomic, strong) UIPopoverController *sharePopoverController;
+@property (nonatomic, strong) UIBarButtonItem*share;
 
-@property (nonatomic, retain) NSURL*currentPDFURL;
+@property (nonatomic, strong) NSURL*currentPDFURL;
 @property (nonatomic, copy) NSString*speaker;
 -(IBAction)pop:(UIBarButtonItem*)sender;
 @end
