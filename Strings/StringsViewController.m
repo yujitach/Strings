@@ -14,6 +14,7 @@
 @synthesize imageView,popoverController,sharePopoverController,progressView;
 @synthesize speaker,currentPDFURL,share;
 
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.

@@ -86,7 +86,7 @@
 {
     response=resp;
     expected=response.expectedContentLength;
-    [[NSString stringWithFormat:@"%lld",(unsigned long long)expected] writeToFile:self.sizePath atomically:YES];
+    [[NSString stringWithFormat:@"%lld",(unsigned long long)expected] writeToFile:self.sizePath atomically:YES encoding:NSUTF8StringEncoding error:NULL];
 }
 -(void)connectionDidFinishLoading:(NSURLConnection*)c
 {

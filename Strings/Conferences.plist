@@ -2,8 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>name</key>
+	<string>Strings</string>
 	<key>conferences</key>
 	<array>
+		<dict>
+			<key>annotation</key>
+			<string>Princeton</string>
+			<key>name</key>
+			<string>Strings 2014</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2014.plist</string>
+		</dict>
 		<dict>
 			<key>annotation</key>
 			<string>Seoul</string>
