@@ -8,6 +8,14 @@
 	<array>
 		<dict>
 			<key>annotation</key>
+			<string>Bengaluru</string>
+			<key>name</key>
+			<string>Strings 2015</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2015.plist</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
 			<string>Princeton</string>
 			<key>name</key>
 			<string>Strings 2014</string>
