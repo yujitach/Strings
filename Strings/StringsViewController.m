@@ -169,7 +169,8 @@
     share.enabled=YES;
     self.speaker=entry[@"name"];
     self.navigationItem.title=self.speaker;
-    self.currentPDFURL=[NSURL URLWithString:entry[@"target"]];
+    NSString*quotedURL=[(NSString*)entry[@"target"] stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
+    self.currentPDFURL=[NSURL URLWithString:quotedURL];
     BOOL downloading=NO;
     for(Downloader*x in downloaders){
 //        NSLog(@"%@ is downloading...",x.url);
