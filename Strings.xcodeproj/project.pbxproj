@@ -21,6 +21,7 @@
 		3354FFD319699F7500BB9043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3354FFD219699F7500BB9043 /* Images.xcassets */; };
 		3354FFD51969BA0800BB9043 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3354FFD41969BA0800BB9043 /* Entitlements.plist */; };
 		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
+		33B427E52272C60500F4387C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B427E42272C60500F4387C /* Launch Screen.storyboard */; };
 		33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D884D913C4B36A0089CFE7 /* Reachability.m */; };
 		33D884E213C4B49C0089CFE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
@@ -36,10 +37,8 @@
 		334203D013AD9B13000B8AC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		334203D213AD9B13000B8AC6 /* StringsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringsAppDelegate.h; sourceTree = "<group>"; };
 		334203D313AD9B13000B8AC6 /* StringsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringsAppDelegate.m; sourceTree = "<group>"; };
-		334203D613AD9B13000B8AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		334203D813AD9B13000B8AC6 /* StringsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringsViewController.h; sourceTree = "<group>"; };
 		334203D913AD9B13000B8AC6 /* StringsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringsViewController.m; sourceTree = "<group>"; };
-		334203DC13AD9B13000B8AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StringsViewController.xib; sourceTree = "<group>"; };
 		334203E913AD9F07000B8AC6 /* Conferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Conferences.plist; sourceTree = "<group>"; };
 		334203EB13ADA7C4000B8AC6 /* Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chooser.h; sourceTree = "<group>"; };
 		334203EC13ADA7C4000B8AC6 /* Chooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chooser.m; sourceTree = "<group>"; };
@@ -47,6 +46,9 @@
 		3354FFD41969BA0800BB9043 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
 		3381F68513ADB8AE00725323 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		33B427E42272C60500F4387C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Strings/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		33B427E62272C85C00F4387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		33B427E72272C85C00F4387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/StringsViewController.xib; sourceTree = "<group>"; };
 		33D884D813C4B36A0089CFE7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		33D884D913C4B36A0089CFE7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -70,6 +72,7 @@
 		334203B413AD9B13000B8AC6 = {
 			isa = PBXGroup;
 			children = (
+				33B427E42272C60500F4387C /* Launch Screen.storyboard */,
 				3354FFD41969BA0800BB9043 /* Entitlements.plist */,
 				334203C913AD9B13000B8AC6 /* Strings */,
 				334203C213AD9B13000B8AC6 /* Frameworks */,
@@ -166,10 +169,11 @@
 			};
 			buildConfigurationList = 334203B913AD9B13000B8AC6 /* Build configuration list for PBXProject "Strings" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 334203B413AD9B13000B8AC6;
 			productRefGroup = 334203C013AD9B13000B8AC6 /* Products */;
@@ -192,6 +196,7 @@
 				334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */,
 				334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */,
 				3354FFD319699F7500BB9043 /* Images.xcassets in Resources */,
+				33B427E52272C60500F4387C /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +230,7 @@
 		334203D513AD9B13000B8AC6 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				334203D613AD9B13000B8AC6 /* en */,
+				33B427E62272C85C00F4387C /* Base */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -233,7 +238,7 @@
 		334203DB13AD9B13000B8AC6 /* StringsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				334203DC13AD9B13000B8AC6 /* en */,
+				33B427E72272C85C00F4387C /* Base */,
 			);
 			name = StringsViewController.xib;
 			sourceTree = "<group>";
@@ -284,24 +289,23 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -311,25 +315,24 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -357,26 +360,25 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b4ff80cb-4ac3-475c-8d71-5922f955dbc0";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
