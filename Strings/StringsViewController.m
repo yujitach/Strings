@@ -227,7 +227,8 @@
     UINavigationController*nvc=[[UINavigationController alloc] initWithRootViewController:chooser];
     UIPopoverController*pc=[[UIPopoverController alloc] initWithContentViewController:nvc];
     self.popoverController = pc;
-    
+    self.popoverController.contentViewController.preferredContentSize=CGSizeMake(500, 900);
+
     downloaders=[[NSMutableArray alloc] init];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(openPDF:) name:@"openPDF" object:nil];
