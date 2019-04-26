@@ -12,7 +12,9 @@
 @interface Chooser : UITableViewController<UINavigationControllerDelegate,UISearchResultsUpdating> {
     NSArray*array;
     NSArray*filtArray;
+    NSMutableArray*allData;
     NSString*name;
+    BOOL isMain;
     UISearchController*sc;
 }
 -(Chooser*)initWithDictionary:(NSDictionary*)dict;

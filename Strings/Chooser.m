@@ -20,6 +20,19 @@
         if(!array){
             array=[_dic valueForKey:@"entries"];   
         }
+        
+        NSDictionary*foo=array[0];
+        NSString*target=[foo valueForKey:@"target"];
+        isMain=[target hasSuffix:@"plist"];
+        if(isMain){
+            allData=[[NSMutableArray alloc] init];
+            for(NSDictionary*dic in array){
+                NSString*target=[dic valueForKey:@"target"];
+                NSMutableDictionary*dict=[NSMutableDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:[self localPathForPath:target]]];
+                NSArray*a=[dict valueForKey:@"conferences"];
+                [allData addObject:@{@"name":[dic valueForKey:@"name"],@"content":a}];
+            }
+        }
         name=[_dic valueForKey:@"name"];
         if(name){
             self.navigationItem.title=name;
@@ -39,12 +52,16 @@
 }
 
 #pragma mark - Business logic
--(void)loadPlist:(NSString*)path withTitle:(NSString*)title;
+-(NSString*)localPathForPath:(NSString*)path
 {
     NSString*lc=[path lastPathComponent];
     NSString*head=[lc stringByDeletingPathExtension];
     NSString*localPath=[[NSBundle mainBundle] pathForResource:head ofType:@"plist"];
-    NSMutableDictionary*dict=[NSMutableDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:localPath]];
+    return localPath;
+}
+-(void)loadPlist:(NSString*)path withTitle:(NSString*)title;
+{
+    NSMutableDictionary*dict=[NSMutableDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:[self localPathForPath:path]]];
     if(!dict[@"name"]){
         dict[@"name"] = title;
     }
@@ -62,10 +79,26 @@
 {
     return sc.isActive && ![sc.searchBar.text isEqualToString:@""];
 }
+-(NSArray*)filtArray:(NSArray*)array bySearch:(NSString*)search
+{
+    return [array filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"annotation contains[cd] %@ OR name contains[cd] %@",search,search]];
+}
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController
 {
     NSString*search=searchController.searchBar.text;
-    filtArray=[array filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"annotation contains[cd] %@ OR name contains[cd] %@",search,search]];
+    if(isMain){
+        NSMutableArray*x=[[NSMutableArray alloc] init];
+        for(NSDictionary* d in allData){
+            NSArray*a=[d valueForKey:@"content"];
+            NSArray*y=[self filtArray:a bySearch:search];
+            if([y count]>0){
+                [x addObject:@{@"name": [d valueForKey:@"name"],@"content":y}];
+            }
+        }
+        filtArray=x;
+    }else{
+        filtArray=[self filtArray:array bySearch:search];
+    }
     [self.tableView reloadData];
 }
 - (void)viewDidLoad
@@ -73,6 +106,7 @@
     [super viewDidLoad];
     sc.searchResultsUpdater=self;
     self.navigationItem.searchController=sc;
+    sc.obscuresBackgroundDuringPresentation=NO;
     self.definesPresentationContext=YES;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -119,18 +153,45 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
+    if([self isFiltering] && isMain){
+        return [filtArray count];
+    }
     return 1;
 }
-
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if([self isFiltering] && isMain){
+        NSDictionary*d=filtArray[section];
+        return [d valueForKey:@"name"];
+    }
+    return nil;
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
     if([self isFiltering]){
+        if(isMain){
+            NSDictionary*d=filtArray[section];
+            NSArray*a=[d valueForKey:@"content"];
+            return [a count];
+        }
         return [filtArray count];
     }
     return [array count];
 }
-
+- (NSArray*)arrayForIndexPath:(NSIndexPath*)indexPath
+{
+    NSArray*a=array;
+    if([self isFiltering]){
+        if(isMain){
+            NSDictionary*d=filtArray[[indexPath section]];
+            a=[d valueForKey:@"content"];
+        }else{
+            a=filtArray;
+        }
+    }
+    return a;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -141,10 +202,7 @@
     }
     
     // Configure the cell...
-    NSArray*a=array;
-    if([self isFiltering]){
-        a=filtArray;
-    }
+    NSArray*a=[self arrayForIndexPath:indexPath];
     NSDictionary*entry=a[[indexPath row]];
     NSString*nname=entry[@"name"];
     NSString*annotation=entry[@"annotation"];
@@ -205,7 +263,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
-    NSDictionary*entry=array[[indexPath row]];
+    NSArray*a=[self arrayForIndexPath:indexPath];
+    NSDictionary*entry=a[[indexPath row]];
     NSString*target=entry[@"target"];
     if([target hasSuffix:@"plist"]){
         [self loadPlist:target withTitle:entry[@"name"]];
