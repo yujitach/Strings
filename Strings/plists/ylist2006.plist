@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string>From spacetime to worldsheet: four point correlators</string>
+			<key>name</key>
+			<string>R. Gopakumar</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/gopakumar.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Why Z_{BH} is Z_{top} squared</string>
+			<key>name</key>
+			<string>A. Strominger</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Gauge Theory And The Geometric Langlands Program</string>
+			<key>name</key>
+			<string>E. Witten</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/witten.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String Landscape and the Swampland</string>
+			<key>name</key>
+			<string>C. Vafa</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Dynamical Susy Breaking and Meta-Stable Vacua, part I</string>
+			<key>name</key>
+			<string>D. Shih</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/shih.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Dynamical Susy Breaking and Meta-Stable Vacua, part II</string>
+			<key>name</key>
+			<string>K. Intriligator</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/intriligator.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Landscape of Supersymmetry Breaking Vacua in Geometrically Realized Gauge Theories</string>
+			<key>name</key>
+			<string>H. Ooguri</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/ooguri.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>the M5-brane elliptic genus</string>
+			<key>name</key>
+			<string>X. Yin</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/yin.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Giant Magnons</string>
+			<key>name</key>
+			<string>J. Maldacena</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Dark Matter and Supergravity</string>
+			<key>name</key>
+			<string>J. Feng</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/feng.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Geometry of Calabi-Yau moduli space and Flux Vacua</string>
+			<key>name</key>
+			<string>T. Eguchi</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/eguchi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Dualities and Topological Strings</string>
+			<key>name</key>
+			<string>R. Dijkgraaf</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/dijkgraaf.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Black Holes as Catalytic Vacuum Converters</string>
+			<key>name</key>
+			<string>E. Silverstein</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/silverstein.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>New results from black hole entropy function</string>
+			<key>name</key>
+			<string>A. Sen</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/sen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Open Strings and Particle Physics</string>
+			<key>name</key>
+			<string>H. Verlinde</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/hverlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Gauge/String Duality and D-brane Inflation</string>
+			<key>name</key>
+			<string>I. Klebanov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/klebanov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Quantum Vortex Strings</string>
+			<key>name</key>
+			<string>D. Tong</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/tong.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Dynamical supersymmetry breaking from branes at singularities</string>
+			<key>name</key>
+			<string>A. Uranga</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/uranga.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Exactly solvable dynamics of rolling D-brane</string>
+			<key>name</key>
+			<string>Y. Nakayama</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/nakayama.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Transplanckian Physics and the CMB: A Status Report</string>
+			<key>name</key>
+			<string>B. Greene</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/greene.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Tiny Graviton Matrix Theory, A Matrix Theory Formulation for DLCQ of String Theory on the AdS_5\times S^5</string>
+			<key>name</key>
+			<string>M. Sheiki-Jabbari</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/sheiki-jabbari.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Symmetry and the Topological String</string>
+			<key>name</key>
+			<string>M. Aganagic</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/aganagic.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Brane Inflation : Searching for String Theory Signatures</string>
+			<key>name</key>
+			<string>H. Tye</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/tye.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Integrability, Transcendentality, and the AdS/CFT Correspondence</string>
+			<key>name</key>
+			<string>M. Staudacher</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/staudacher.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Anomaly cancellation and smooth non-kaehler solutions in heterotic string theory</string>
+			<key>name</key>
+			<string>K. Becker</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/becker.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>From AdS3/CFT2 to Black Holes/Topological Strings</string>
+			<key>name</key>
+			<string>A. Strominger</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Supersymmetric	States	in	N=4 Yang Mills</string>
+			<key>name</key>
+			<string>S. Minwalla</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Analytic results in open string field theory</string>
+			<key>name</key>
+			<string>M. Schnabl</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/schnabl.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Infinite symmetries in the high energy limit</string>
+			<key>name</key>
+			<string>P.-M. Ho</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/ho.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Supersymmetry breaking and its mediation, in string theory</string>
+			<key>name</key>
+			<string>S. Kachru</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Emergent geometry: towards a proof of the AdS/CFT correspondence</string>
+			<key>name</key>
+			<string>D. Berenstein</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/berenstein.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>COISOTROPIC MODEL BUILDING</string>
+			<key>name</key>
+			<string>L. Ibanez</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/ibanez.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Emergent Holography from Weakly Coupled CFTs</string>
+			<key>name</key>
+			<string>S.-J. Rey</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/rey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Localization and conjectures from string duality</string>
+			<key>name</key>
+			<string>K.-F. Liu</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/liu.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>BPS states and the Enriques Calabi--Yau</string>
+			<key>name</key>
+			<string>M. Marino</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/marino.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>New aspects of generalized geometry</string>
+			<key>name</key>
+			<string>N. Hitchin</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/hitchin.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Topological reduction of supersymmetric gauge theories and S-duality</string>
+			<key>name</key>
+			<string>A. Kapustin</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/kapustin.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>On the capture of runaway quivers</string>
+			<key>name</key>
+			<string>J. McGreevy</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/mcgreevy.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Surface Operators in Gauge Theory and Categorification</string>
+			<key>name</key>
+			<string>S. Gukov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/gukov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A new infinite class of supersymmetric AdS_3 solutions</string>
+			<key>name</key>
+			<string>J. Gauntlett</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/gauntlett.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Three-Family Maximally Symmetric Minimal Unification Model in 10-Dimensional Space-Time</string>
+			<key>name</key>
+			<string>Y.-L. Wu</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/wu.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Two comments on black holes</string>
+			<key>name</key>
+			<string>S. Mathur</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/mathur.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Exploring the four-graviton effective action</string>
+			<key>name</key>
+			<string>M. Green</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/green.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>From OSV to OSV</string>
+			<key>name</key>
+			<string>F. Denef</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/denef.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Holographic Theories with Fundamental Matter</string>
+			<key>name</key>
+			<string>R. Myers</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/myers.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Some observations concerning the weak gravity conjecture</string>
+			<key>name</key>
+			<string>M. Li</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/li.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Branes, fluxes and black holes -- or how to select the correct string vacuum?</string>
+			<key>name</key>
+			<string>D. Luest</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/luest.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Beyond Morse Theory</string>
+			<key>name</key>
+			<string>N. Nekrasov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/nekrasov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A Farey Tail for N=2 Black Holes</string>
+			<key>name</key>
+			<string>E. Verlinde</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/verlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The role of tachyons in black hole evaporation</string>
+			<key>name</key>
+			<string>G. Horowitz</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/horowitz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Closing Remarks</string>
+			<key>name</key>
+			<string>R. Dijkgraaf</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2006/summary.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

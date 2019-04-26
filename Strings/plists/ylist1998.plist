@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string>Introduction</string>
+			<key>name</key>
+			<string>David Gross</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/intro.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Quantitative Tests of Maldacena's Conjecture</string>
+			<key>name</key>
+			<string>Ofer Aharony</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/aharony.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Locality and Holography in AdS/CFT</string>
+			<key>name</key>
+			<string>Tom Banks</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/banks.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Generalization of the R^4 Conjecture</string>
+			<key>name</key>
+			<string>Nathan Berkovits</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/berkovits.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String Expansion as Large N Expansion</string>
+			<key>name</key>
+			<string>Misha Bershadsky</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/bershadsky.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>DLCQ of M-Theory as the Light-Like Limit</string>
+			<key>name</key>
+			<string>Adel Bilal</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/bilal.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Microstates from the Near-Horizon Geometryof Rotating Black Holes </string>
+			<key>name</key>
+			<string>Mirjam Cvetic</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/cvetic.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>6d Supergravity on S^3 X AdS^3 and 2d CFT</string>
+			<key>name</key>
+			<string>Jan de Boer</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/deboer.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Enhanced Symmetries andthe Ground State of String Theory - and - a Status Report on Multigraviton Scattering in Matrix Theory versus DLCQ Supergravity </string>
+			<key>name</key>
+			<string>Michael Dine</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/dine.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings, Branes and Noncommutative Geometry</string>
+			<key>name</key>
+			<string>Mike Douglas</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/douglas.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Anti-de Sitter Space, Branes, Singletons,Superconformal Field Theories and All That </string>
+			<key>name</key>
+			<string>Michael Duff</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/duff.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Bulk Gauge Fields in AdS Supergravityand Supersingletons </string>
+			<key>name</key>
+			<string>Sergio Ferrara</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/ferrara.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Anti-de-Sitter Space - a Nice Place to Visit,But You Wouldn't Want to Live There </string>
+			<key>name</key>
+			<string>Dan Freedman</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/freedman.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Comments on String Theory on Anti de Sitter Space</string>
+			<key>name</key>
+			<string>Amit Giveon</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/giveon.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Non-Perturbative Effects in Superstringand Yang--Mills Theory </string>
+			<key>name</key>
+			<string>Michael Green</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/green.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Aspects of D-branes on Curved Space</string>
+			<key>name</key>
+			<string>Brian Greene</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/greene.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Aspects of Large N Gauge Theory Dynamicsas Seen by String Theory </string>
+			<key>name</key>
+			<string>David Gross</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/gross.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Gauge Theory Correlators From Supergravity</string>
+			<key>name</key>
+			<string>Steve Gubser</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/gubser.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Brane Box Models</string>
+			<key>name</key>
+			<string>Amihay Hanany</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/hanany.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A Few Bumps on the M5</string>
+			<key>name</key>
+			<string>Jeff Harvey</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/harvey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>M-Theory, Field Theory and Holography</string>
+			<key>name</key>
+			<string>Petr Horava</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/horava.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Consistency Condition for Fivebranein M Theory on R^5/Z_2 Orbifold </string>
+			<key>name</key>
+			<string>Kentaro Hori</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/hori.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Negative AdS Energyand its Implications for Large N Gauge Theory </string>
+			<key>name</key>
+			<string>Gary Horowitz</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/horowitz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Conformal Symmetry, Branes and Fields in Superspace</string>
+			<key>name</key>
+			<string>Paul Howe</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/howe.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Times They Are A-Changing</string>
+			<key>name</key>
+			<string>Chris Hull</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/hull.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Background Geometry of DLCQ M Theory and Holography</string>
+			<key>name</key>
+			<string>Seungjoon Hyun</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/hyun.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Non-Conformal Field Theories and Supergravity</string>
+			<key>name</key>
+			<string>Nissan Itzhaki</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/itzhaki.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A Non-Superstring, II</string>
+			<key>name</key>
+			<string>Shamit Kachru</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Near Horizon Superspace</string>
+			<key>name</key>
+			<string>Renata Kallosh</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/kallosh.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>From Black Threebranes to Large N Gauge Theories</string>
+			<key>name</key>
+			<string>Igor Klebanov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/klebanov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Particle Spectrum of N=4 d=4 Gauge Theoryand (p,q) Webs </string>
+			<key>name</key>
+			<string>Barak Kol</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/kol.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Open-Closed String Mirror Symmetry</string>
+			<key>name</key>
+			<string>Wolfgang Lerche</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/lerche.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Chiral SUSY Gauge Theories Via Branes</string>
+			<key>name</key>
+			<string>David Lowe</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/lowe.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Large N Limit of Field Theories and Gravity</string>
+			<key>name</key>
+			<string>Juan Maldacena</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The D-star and its Decays</string>
+			<key>name</key>
+			<string>Emil Martinec</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/martinec.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Absorption by D3-Branes</string>
+			<key>name</key>
+			<string>Samir Mathur</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/mathur.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>3-Point Functions of Chiral Operatorsin D=4 \CN=4 SYM at Large N </string>
+			<key>name</key>
+			<string>Shiraz Minwalla</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Arithmetic and Attractors</string>
+			<key>name</key>
+			<string>Greg Moore</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/moore.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Non-Spherical Horizons</string>
+			<key>name</key>
+			<string>Dave Morrison</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/morrison.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Glueball Mass Spectrum From Supergravity</string>
+			<key>name</key>
+			<string>Yaron Oz</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/oz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Issues of Extensivity Versus Holographyin Anti-de Sitter Spaces </string>
+			<key>name</key>
+			<string>Eliezer Rabinovici</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/rabinovici.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Stable Non-BPS States in String Theory</string>
+			<key>name</key>
+			<string>Ashoke Sen</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/sen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String Junctions and the BPS Spectrum of N=2 Theories</string>
+			<key>name</key>
+			<string>Savdeep Sethi</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/sethi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A Non-Superstring, I</string>
+			<key>name</key>
+			<string>Eva Silverstein</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/silverstein.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Black Hole Horizon</string>
+			<key>name</key>
+			<string>Andy Strominger</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Holographic Principle</string>
+			<key>name</key>
+			<string>Lenny Susskind</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/susskind.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>New Horizons in M-Theory</string>
+			<key>name</key>
+			<string>Paul Townsend</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/townsend.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings in AdS_5 x S^5</string>
+			<key>name</key>
+			<string>Arkady Tseytlin</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/tseytlin.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>From Anti-de Sitter Backgroundto Superconformal World Sheet Symmetry </string>
+			<key>name</key>
+			<string>Toine Van Proeyen</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/vanproeyen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Matrix String Interactions</string>
+			<key>name</key>
+			<string>Herman Verlinde</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/verlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Baryons and Branes in Anti de Sitter Space</string>
+			<key>name</key>
+			<string>Edward Witten</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/witten.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>CFT's on the boundaries of AdS3</string>
+			<key>name</key>
+			<string>Klaus Behrndt, Ilka Bruhner, Ingo Gaida</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_behrndt.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>5-branes, KK-monopoles and T-duality</string>
+			<key>name</key>
+			<string>Eduardo Eyras, Bert Janssen, Yolanda Lozano</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_eyras.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Planckian Scattering as a Holographic Field Theory</string>
+			<key>name</key>
+			<string>Sebastian de Haro</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_haro.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Making Manifest the Symmetry Enhancement for Coinciding BPS Branes</string>
+			<key>name</key>
+			<string>Sergei Ketov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_ketov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>D-Particle Bound States Matrix Integrals and KP</string>
+			<key>name</key>
+			<string>N. Nekrasov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_nekrasov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>High Energy Scattering of D0 branes in SUGRA</string>
+			<key>name</key>
+			<string>Aleksey Nudelman</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_nudelman.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Duality Symmetry in the Schwarz-Sen Model</string>
+			<key>name</key>
+			<string>Victor O. Rivelles</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_rivelles.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Heterotic T-Duality and the Renormalization Group</string>
+			<key>name</key>
+			<string>Ricardo Schiappa, Kasper Olsen</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_schiappa.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Large N and Dine-Rajaraman Problem</string>
+			<key>name</key>
+			<string>J. McCarthy, L. Susskind, Andy Wilkins</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/1998/p_wilkins.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

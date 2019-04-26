@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string> String Theory without Gravity</string>
+			<key>name</key>
+			<string>Andrew Strominger (Harvard) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Gauge Fields, Scalars, Warped Geometry, and Strings</string>
+			<key>name</key>
+			<string>Eva Silverstein (Stanford/SLAC) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/silverstein.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Strings as Noncommutative Solitons</string>
+			<key>name</key>
+			<string>Finn Larsen (Chicago) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/larsen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Vertex Operators for the Supermembrane</string>
+			<key>name</key>
+			<string>Jan Plefka (AEI) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/plefka.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Randall-Sundrum geometry from D3 branes</string>
+			<key>name</key>
+			<string>Kellogg Stelle (Imperial College) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/stelle.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Strings in AdS_3 and the SL(2,R) WZW model</string>
+			<key>name</key>
+			<string>Hirosi Ooguri (Berkeley) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/ooguri.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Supersymmetry in Singular Spaces and Domain Walls</string>
+			<key>name</key>
+			<string>Renata Kallosh (CERN &amp; Stanford) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/kallosh.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Overview of K-Theory Applied to Strings</string>
+			<key>name</key>
+			<string>Edward Witten (IAS &amp; Caltech) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/witten.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Space and Time Since Einstein</string>
+			<key>name</key>
+			<string>Brian Greene (Columbia)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/spacetime.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> N=2 Gauge-Gravity Duals</string>
+			<key>name</key>
+			<string>Joseph Polchinski (ITP Santa Barbara) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/polchinski.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> RG flows and the supergravity brane world</string>
+			<key>name</key>
+			<string>James Liu (Michigan) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/liu.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Brane Worlds, String Theory, and the Cosmological Constant</string>
+			<key>name</key>
+			<string>Senarath de Alwis (Colorado) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/dealwis.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Stringy Geometry of D-branes</string>
+			<key>name</key>
+			<string>Shamit Kachru (Stanford) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Holography and renormalization in the AdS/CFT correspondence</string>
+			<key>name</key>
+			<string>Kostas Skenderis (Princeton) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/skenderis.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Non-Abelian Born-Infeld and Kappa-Symmetry</string>
+			<key>name</key>
+			<string>Eric Bergshoeff (Groningen) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/bergshoeff.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Complex Gravity and Noncommutative Geometry</string>
+			<key>name</key>
+			<string>Ali Chamseddine (CAMS/AUB) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/chamseddine.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Aspects of Collapsing Cycles</string>
+			<key>name</key>
+			<string>Brian Greene (Columbia) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/greene.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> A Candidate Theory of Quasilocalization</string>
+			<key>name</key>
+			<string>Lisa Randall (Princeton &amp; MIT) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/randall.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> OM</string>
+			<key>name</key>
+			<string>Nathan Seiberg (IAS) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/seiberg.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Covariant Quantization of the Superstring</string>
+			<key>name</key>
+			<string>Nathan Berkovits (IFT Sao Paulo) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/berkovits.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Vertex Operators for AdS_3 with Ramond Background</string>
+			<key>name</key>
+			<string>Louise Dolan (UNC Chapel Hill) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/dolan.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> New twists on branes and large N field theories</string>
+			<key>name</key>
+			<string>Juan Maldacena (Harvard) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Black hole thermodynamics for strongly coupled gauge theory</string>
+			<key>name</key>
+			<string>Daniel Kabat (Columbia) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/kabat.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> D-brane physics at low energies</string>
+			<key>name</key>
+			<string>Ignatios Antoniadis (CERN) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/antoniadis.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> D-Branes in the Background of NS Fivebranes</string>
+			<key>name</key>
+			<string>Eliezer Rabinovici (Hebrew University) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/rabinovici.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Ordered phases of non-commutative theories</string>
+			<key>name</key>
+			<string>Steven Gubser (Princeton) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/gubser.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Domain Walls in Gauged Supergravities</string>
+			<key>name</key>
+			<string>Mirjam Cvetic (Pennsylvania) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/cvetic.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Superstrings in AdS in light cone gauge</string>
+			<key>name</key>
+			<string>Arkady Tseytlin (Ohio State) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/tseytlin.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Cosmological M Theory, SUSY Breaking, and the Cosmological Constant</string>
+			<key>name</key>
+			<string>Tom Banks (Rutgers &amp; Santa Cruz) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/banks.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> 1+1 Dimensional NCOS and its U(N) Gauge Theory Dual</string>
+			<key>name</key>
+			<string>Igor Klebanov (Princeton) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/klebanov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> D-branes as Non-commutative Solitons</string>
+			<key>name</key>
+			<string>Jeffrey Harvey (Chicago) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/harvey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Comments on branes, G-flux, and K-theory</string>
+			<key>name</key>
+			<string>Gregory Moore (Rutgers) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/moore.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string></string>
+			<key>name</key>
+			<string>Matthew Strassler (IAS) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/strassler.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Space-time uncertainties and noncommutativity in string theory</string>
+			<key>name</key>
+			<string>Tamiaki Yoneya (Tokyo) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/yoneya.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Non-Perturbative Physics in Brane Worlds</string>
+			<key>name</key>
+			<string>Burt Ovrut (Pennsylvania) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/ovrut.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Noncommutative Field Theories: Unitarity and Decoupling</string>
+			<key>name</key>
+			<string>Jaume Gomis (Caltech) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/gomis.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Nonabelian D-branes and Noncommutative Geometry</string>
+			<key>name</key>
+			<string>Robert Myers (McGill) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/myers.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Stable non-BPS States and their Holographic Duals</string>
+			<key>name</key>
+			<string>Sunil Mukhi (TIFR) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/mukhi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Open/Closed String Duality, Or: How gravity couples to matter</string>
+			<key>name</key>
+			<string>Herman Verlinde (Princeton) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/verlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Superconformal interpretation of BPS states in AdS geometries</string>
+			<key>name</key>
+			<string>Sergio Ferrara (CERN) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/ferrara.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> The Enhançon, Multimonopoles and Fuzzy Geometry</string>
+			<key>name</key>
+			<string>Clifford Johnson (Durham) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/johnson.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> M-Theory Duality and BPS-extended Supergravity</string>
+			<key>name</key>
+			<string>Bernard de Wit (Utrecht University) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/dewit.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Monopoles and strings in noncommutative gauge theory</string>
+			<key>name</key>
+			<string>David Gross (ITP Santa Barbara) </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/gross.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Ten Questions in Fundamental Physics</string>
+			<key>name</key>
+			<string>David Gross (ITP Santa Barbara)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2000/questions.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

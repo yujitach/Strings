@@ -40,19 +40,10 @@
 #pragma mark - Business logic
 -(void)loadPlist:(NSString*)path withTitle:(NSString*)title;
 {
-    NSString*cachesFolder=[NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches"];
-    NSString*fpath=[path stringByReplacingOccurrencesOfString:@"/" withString:@"@"];
-    fpath=[fpath stringByReplacingOccurrencesOfString:@":" withString:@"_"];
-    NSString*cachePath=[cachesFolder stringByAppendingPathComponent:fpath];
-    NSFileManager*fm=[[NSFileManager alloc] init];
-    if(![fm fileExistsAtPath:cachePath]){
-	[fm createDirectoryAtPath:cachesFolder withIntermediateDirectories:YES attributes:nil error:NULL];
-        NSData*plist=[NSData dataWithContentsOfURL:[NSURL URLWithString:path]];
-        if(plist && [plist length]>0){
-            [plist writeToFile:cachePath atomically:YES];
-        }
-    }
-    NSMutableDictionary*dict=[NSMutableDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:cachePath]];
+    NSString*lc=[path lastPathComponent];
+    NSString*head=[lc stringByDeletingPathExtension];
+    NSString*localPath=[[NSBundle mainBundle] pathForResource:head ofType:@"plist"];
+    NSMutableDictionary*dict=[NSMutableDictionary dictionaryWithContentsOfURL:[NSURL fileURLWithPath:localPath]];
     if(!dict[@"name"]){
         dict[@"name"] = title;
     }

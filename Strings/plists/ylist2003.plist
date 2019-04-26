@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string>The Topological Vertex</string>
+			<key>name</key>
+			<string>Mina Aganagic (Harvard Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/aganagic.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings in a Pulse</string>
+			<key>name</key>
+			<string>Constantin Bachas (Ecole Normale Superieure)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/bachas.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>SUSY and the Holographic Screens</string>
+			<key>name</key>
+			<string>Tom Banks (UC Santa Cruz &amp; Rutgers Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/banks.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>N=4 (Self-Dual) Yang-Mills as a String Theory</string>
+			<key>name</key>
+			<string>Nathan Berkovits (Inst. de Fisica Teorica, Sao Paulo)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/berkovits.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Entropy Lite</string>
+			<key>name</key>
+			<string>Raphael Bousso (Harvard Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/bousso.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Supersymmetric Intersecting D6-branes and Fluxes</string>
+			<key>name</key>
+			<string>Mirjam Cvetic (Univ. of Pennsylvania)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/cvetic.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Duality Twists, Orbifolds, and Fluxes</string>
+			<key>name</key>
+			<string>Atish Dabholkar (Tata Inst.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/dabholkar.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Two-Loop superstrings</string>
+			<key>name</key>
+			<string>Eric D'Hoker (UCLA)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/dhoker.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Supersymmetric Gauge Theories and Matrix Models</string>
+			<key>name</key>
+			<string>Robbert Dijkgraaf (Univ. of Amsterdam)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/dijkgraaf.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Approaches to String Phenomenology</string>
+			<key>name</key>
+			<string>Michael Dine (UC Santa Cruz)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/dine.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Statistics of Flux Vacua</string>
+			<key>name</key>
+			<string>Michael Douglas (Rutgers Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/douglas.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Chasing Zero</string>
+			<key>name</key>
+			<string>Gia Dvali (New York Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/dvali.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Homological Mirror Symmetry and Asymptotic Expansion of Special Function on Calabi Yau Manifolds</string>
+			<key>name</key>
+			<string>Kenji Fukaya (Kyoto Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/fukaya.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Classifying Supergravity Solutions</string>
+			<key>name</key>
+			<string>Gauntlett (Queen Mary, Univ. of London)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/gauntlett.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Closing Remarks</string>
+			<key>name</key>
+			<string>David Gross (Kavli Inst. for Theoretical Phys.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/gross.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Quantum Geometry of Hyperbolic 3-Manifolds</string>
+			<key>name</key>
+			<string>Sergei Gukov (Harvard Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/gukov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Challenging the Standard Cosmology</string>
+			<key>name</key>
+			<string>Lawrence Hall (UC Berkeley)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/hall.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Sen's Conjectures in Yang-Mills : Recombination of Intersecting D-branes</string>
+			<key>name</key>
+			<string>Koji Hashimoto (Univ. of Tokyo)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/hashimoto.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Integrable Systems and Glueball Superpotentials</string>
+			<key>name</key>
+			<string>Hollowood (Univ. of Wales Swansea)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/hollowood.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>D-branes, Orientifolds of Calabi-Yau, And N=1 Supersymmetry</string>
+			<key>name</key>
+			<string>Kentaro Hori (Univ. of Toronto)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/hori.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Towards Inflation in String Theory</string>
+			<key>name</key>
+			<string>Shamit Kachru (Stanford Univ. &amp; SLAC)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Non-Perturbative Effects in Matrix Models and D-branes</string>
+			<key>name</key>
+			<string>Vladimir Kazakov (LPT, Ecole Normale Superieure)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/kazakov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Two-Dimensional String Theory and D-Branes</string>
+			<key>name</key>
+			<string>Igor Klebanov (Princeton Univ. &amp; IAS)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/klebanov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Closed Strings From Unstable D-Branes</string>
+			<key>name</key>
+			<string>Juan Maldacena (Inst. for Advanced Study)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Master Field of N=2 Theories: Derivation of Seiberg-Witten' Solution</string>
+			<key>name</key>
+			<string>Nikita Nekrasov (Inst. Hautes Etudes Scientifiques)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/nekrasov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>E_10 and E_11 at low levels: Searching for a Fundamental Symmetry</string>
+			<key>name</key>
+			<string>Hermann Nicolai (Max Planck Inst., Golm)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/nicolai.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>New Heterotic Vacua and Instanton Moduli</string>
+			<key>name</key>
+			<string>Burt Ovrut (Univ. of Pennsylvania)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/ovrut.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Open Strings in Electric Fields and the Milne Universe</string>
+			<key>name</key>
+			<string>Boris Pioline (Laboratoire de Physique Theorique et Hautes Energies, Universites Paris)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/pioline.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Tests of AdS/CFT</string>
+			<key>name</key>
+			<string>John Schwarz (California Institute of Technology)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/schwarz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Noncommutative Superspace</string>
+			<key>name</key>
+			<string>Nathan Seiberg (Inst. for Advanced Study)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/seiberg.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Closed Strings and Unstable D-Branes</string>
+			<key>name</key>
+			<string>Ashoke Sen (Harish-Chandra Research Institute)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/sen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>D-Sitter Space</string>
+			<key>name</key>
+			<string>Eva Silverstein (SLAC)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/silverstein.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>SD-branes in String Theory</string>
+			<key>name</key>
+			<string>Andrew Strominger (Harvard Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Emergent Geometry and String Field Theory</string>
+			<key>name</key>
+			<string>Washington Taylor (MIT)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/taylor.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Classical Brane Dynamics in Noncritical String Theory</string>
+			<key>name</key>
+			<string>Joerg Teschner (Freie Univ. Berlin)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/teschner.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A Perturbative Window into Non-Perturbative Phyiscs</string>
+			<key>name</key>
+			<string>Cumrun Vafa (Harvard Univ. &amp; California Institute of Technology)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Blending Local Symmetries with Matrix Nonlocality</string>
+			<key>name</key>
+			<string>Mark Van Raamsdonk (Stanford Univ. &amp; Univ. of British Columbia)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/raamsdonk.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings from Tachyons</string>
+			<key>name</key>
+			<string>Herman Verlinde (Princeton Univ.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/verlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String Theory In Plane Waves And In AdS</string>
+			<key>name</key>
+			<string>Anastasia Volovich (Kavli Inst. for Theoretical Phys.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/volovich.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Proton Decay In Intersecting D-brane Models</string>
+			<key>name</key>
+			<string>Edward Witten (Inst. for Advanced Study)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/witten.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A Survey On Mirror Principle</string>
+			<key>name</key>
+			<string>Shing-Tung Yau (Harvard Univ. &amp; California Institute of Technology)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/yau.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Tachyon, String Fluid, and Fundamental String</string>
+			<key>name</key>
+			<string>Piljin Yi (Korea Inst. for Advanced Study)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/yi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>What is Holography in the Plane-Wave Limit of AdS/CFT Correspondence?</string>
+			<key>name</key>
+			<string>Tamiaki Yoneya (Univ. of Tokyo)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/yoneya.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Nonperturbative Physics from Perturbation Theory</string>
+			<key>name</key>
+			<string>Daniela Zanon (Universita degli Studi di Milano)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2003/zanon.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

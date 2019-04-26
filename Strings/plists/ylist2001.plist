@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string>String Physics at Low Energies</string>
+			<key>name</key>
+			<string>Ignatios Antoniadis</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/anton.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>D-branes in the SL(2,R) WZW Model</string>
+			<key>name</key>
+			<string>Costas Bachas</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/bachas.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Brane Resolution on Ricci-flat Metrics</string>
+			<key>name</key>
+			<string>Mirjam Cvetic</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/cvetic.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Bulk Couplings to Noncommutative Branes</string>
+			<key>name</key>
+			<string>Sumit Das</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/das.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Exact Results for N=1* SUSY Yang-Mills Theory and its String Dual</string>
+			<key>name</key>
+			<string>Nick Dorey</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/dorey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>D-Branes on Calabi-Yau Manifolds</string>
+			<key>name</key>
+			<string>Michael Douglas</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/douglas.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Normalisation of Background Independent SFT Action</string>
+			<key>name</key>
+			<string>Debashis Ghoshal</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/ghoshal.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Superstrings on AdS3</string>
+			<key>name</key>
+			<string>Amit Giveon</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/giveon.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Noncommutative Solitons (I)</string>
+			<key>name</key>
+			<string>Rajesh Gopakumar</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/gkumar.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>D-branes and Vector Bundles on Calabi-Yau Manifolds: the View from the Helix</string>
+			<key>name</key>
+			<string>Suresh Govindarajan</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/grajan.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Connections Between Large N Yang-Mills Theory and String Theory</string>
+			<key>name</key>
+			<string>Michael Green</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/green.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Non Commutative Gauge Theory </string>
+			<key>name</key>
+			<string>David Gross</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/gross.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Phase Separation</string>
+			<key>name</key>
+			<string>Steven Gubser</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/gubser.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Aspects of D-branes as Noncommmutative Solitons</string>
+			<key>name</key>
+			<string>Jeffrey Harvey</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/harvey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>AdS, CFT and Cosmology</string>
+			<key>name</key>
+			<string>Stephen Hawking</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/hawking.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> deSitter Entropy and String Theory</string>
+			<key>name</key>
+			<string>Petr Horava</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/horava.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Mirror Symmetry and its Applications</string>
+			<key>name</key>
+			<string>Kentaro Hori</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/hori.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Strongly Coupled Gravity and Conformal Invariance</string>
+			<key>name</key>
+			<string>Christopher Hull</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/hull.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Tunneling-Mediated Supersymmetry Breaking</string>
+			<key>name</key>
+			<string>Shamit Kachru</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Matrix Model of Two-dimensional Black Hole</string>
+			<key>name</key>
+			<string>Vladimir Kazakov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/kazakov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Nonperturbative Investigation of Superstring through Matrix Models</string>
+			<key>name</key>
+			<string>Yoshihisa Kitazawa</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/kitazawa.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Supergravity Dual of a Cascading Confining Gauge Theory</string>
+			<key>name</key>
+			<string>Igor Klebanov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/klebanov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String Field Theory of the D-Dbar System</string>
+			<key>name</key>
+			<string>Per Kraus</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/kraus.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Comments on the Thermodynamics of Little String Theory and Two Dimensional String Theory</string>
+			<key>name</key>
+			<string>David Kutasov</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/kutasov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Non BPS D-Branes on a Calabi-Yau orbifold</string>
+			<key>name</key>
+			<string>Jaydeep Majumder</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/majumder.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Matrix Model, Noncommutative Gauge Theory and Brane-antibrane Systems</string>
+			<key>name</key>
+			<string>Gautam Mandal</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/mandal.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Noncommutative Solitons (II)</string>
+			<key>name</key>
+			<string>Shiraz Minwalla</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Fuzzy Funnels: Nonabelian Brane Intersections</string>
+			<key>name</key>
+			<string>Robert Myers</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/myers.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> D5-D1 System in Theories with 16 Supercharges</string>
+			<key>name</key>
+			<string>K.S. Narain</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/narain.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>How Noncommutative Gauge Theories Couple to Gravity</string>
+			<key>name</key>
+			<string>Hirosi Ooguri</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/ooguri.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>More on Singularity Resolution</string>
+			<key>name</key>
+			<string>Amanda Peet</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/peet.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Classical and Planar Limits of Noncommutative Vacua and Solitons</string>
+			<key>name</key>
+			<string>Soo-Jong Rey</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/rey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string> Free Energy and Critical Temperature in Eleven Dimensions</string>
+			<key>name</key>
+			<string>Jorge Russo</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/russo.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Brane Dynamics in CFT Backgrounds</string>
+			<key>name</key>
+			<string>Volker Schomerus</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/schomerus.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Comments on Born-Infeld Theory</string>
+			<key>name</key>
+			<string>John Schwarz</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/schwarz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Summary of the Meeting</string>
+			<key>name</key>
+			<string>John Schwarz</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/summary.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Lump Solutions in String Field Theory around the Tachyon Vacuum</string>
+			<key>name</key>
+			<string>Ashoke Sen</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/sen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>On Field Theory of Open Strings, Tachyon Condensation and Closed Strings</string>
+			<key>name</key>
+			<string>Samson Shatashvili</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/samson.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Multi-Brane Constructions and Time-Dependent Physics</string>
+			<key>name</key>
+			<string>Eva Silverstein</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/silver.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Ramond-Ramond Couplings of Non-Commutative Branes</string>
+			<key>name</key>
+			<string>Nemani Suryanarayana</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/nemani.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Gauge Invariance and Tachyon Condensation in Open String Field Theory</string>
+			<key>name</key>
+			<string>Washington Taylor</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/taylor.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Magnetic Branes and Giant Gravitons</string>
+			<key>name</key>
+			<string>Sandip Trivedi</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/trivedi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Quantum Gravity in desitter space</string>
+			<key>name</key>
+			<string>Edward Witten</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/witten.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Tachyon Models and String Field Theory around the Tachyon Vacuum</string>
+			<key>name</key>
+			<string>Barton Zwiebach</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2001/zwiebach.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string>M-theory, G2 manifolds and four-dimensional physics</string>
+			<key>name</key>
+			<string>Bobby Acharya (Rutgers)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/acharya.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Dimensional deconstruction and physics in theory space</string>
+			<key>name</key>
+			<string>Nima Arkani-Hamed (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/arkani-hamed.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Twisted K-theory and physics</string>
+			<key>name</key>
+			<string>Michael Atiyah (Edinburgh)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/atiyah.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Branes in AdS spacetimes and holography</string>
+			<key>name</key>
+			<string>Costas Bachas (ENS, Paris)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/bachas.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A critique of pure string theory</string>
+			<key>name</key>
+			<string>Tom Banks (U. of California, Santa Cruz and Rutgers)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/banks.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>N=1 dualities and the dynamics of brane anti-brane systems</string>
+			<key>name</key>
+			<string>David Berenstein (IAS, Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/berenstein.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Applications of the covariant formalism for superstrings and the supermembrane</string>
+			<key>name</key>
+			<string>Nathan Berkovits (Sao Paulo, Brazil)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/berkovits.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A resolution of the cosmological singularity with  orientifolds</string>
+			<key>name</key>
+			<string>Lorenzo Cornalba (Amsterdam)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/cornalba.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Matrix models, topological strings and supersymmetric gauge theories</string>
+			<key>name</key>
+			<string>Robbert Dijkgraaf (Amsterdam)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/dijkgraaf.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Elliptic models at large-N, (little) worldsheet instantons and integrable systems</string>
+			<key>name</key>
+			<string>Nick Dorey (Swansea)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/dorey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Mastering N=1</string>
+			<key>name</key>
+			<string>Michael Douglas (Rutgers)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/douglas.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Geometry of supersymmetric pp-waves</string>
+			<key>name</key>
+			<string>José Figueroa-O'Farrill (Edinburgh)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/figueroa.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Warped compactification phenomenology</string>
+			<key>name</key>
+			<string>Steve Giddings (UCSB)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/giddings.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>From big bang to big crunch and beyond</string>
+			<key>name</key>
+			<string>Amit Giveon (Racah, Jerusalem)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/giveon.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The geometry of rational conformal field theories</string>
+			<key>name</key>
+			<string>Sergei Gukov (Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/gukov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Spacelike branes</string>
+			<key>name</key>
+			<string>Michael Gutperle (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/gutperle.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Comments on spacetime singularities</string>
+			<key>name</key>
+			<string>Gary Horowitz (UCSB)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/horowitz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The intersection numbers of the Standard Model</string>
+			<key>name</key>
+			<string>Luis Ibáñez (Autonoma, Madrid)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/ibanez.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>On wrapped membranes</string>
+			<key>name</key>
+			<string>Nobuyuki Ishibashi (KEK)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/ishibashi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>New phenomena in compactifications with flux</string>
+			<key>name</key>
+			<string>Shamit Kachru (Stanford)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Spontaneous breaking of rotational symmetry in IIB matrix model</string>
+			<key>name</key>
+			<string>Hikaru Kawai (Kyoto)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/kawai.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Some stringy aspects of the AdS/CFT duality</string>
+			<key>name</key>
+			<string>Igor Klebanov (Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/klebanov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Intersecting brane worlds on Calabi-Yau orientifolds</string>
+			<key>name</key>
+			<string>Dieter Lüst (Humboldt)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/luest.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings on plane waves</string>
+			<key>name</key>
+			<string>Juan Maldacena (IAS, Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Some thoughts on the wave function of the universe</string>
+			<key>name</key>
+			<string>Juan Maldacena (IAS, Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/maldacena2.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>PP-wave string interactions from Yang Mills</string>
+			<key>name</key>
+			<string>Shiraz Minwalla (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings on time dependent orbifolds I</string>
+			<key>name</key>
+			<string>Greg Moore (Rutgers)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/moore.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Half K3 surfaces</string>
+			<key>name</key>
+			<string>David Morrison (Duke)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/morrison.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings from quivers</string>
+			<key>name</key>
+			<string>Sunil Mukhi (Tata and IAS)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/mukhi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Solution of N=2 gauge theories via instanton counting</string>
+			<key>name</key>
+			<string>Nikita Nekrasov (IHES \&amp; ITEP)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/nekrasov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>E10 and the BKL limit of M theory</string>
+			<key>name</key>
+			<string>Hermann Nicolai (AEI Golm)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/nicolai.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Worldsheet derivation of a large N duality</string>
+			<key>name</key>
+			<string>Hirosi Ooguri (Caltech)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/ooguri.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Deep inelastic scattering and the growth of strings</string>
+			<key>name</key>
+			<string>Joe Polchinski (ITP, Santa Barbara)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/polchinski.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Old and new aspects of the gauge/strings correspondence</string>
+			<key>name</key>
+			<string>Alexander Polyakov (Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/polyakov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Special holonomy and the conifold</string>
+			<key>name</key>
+			<string>Chris Pope (Texas A &amp;amp; M)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/pope.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Higher spin massless particles</string>
+			<key>name</key>
+			<string>Pierre Ramond (Gainesville, Florida)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/ramond.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Unification in warped extra dimensions and bulk holography</string>
+			<key>name</key>
+			<string>Lisa Randall (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/randall.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Progress in open string field theory</string>
+			<key>name</key>
+			<string>Leonardo Rastelli (Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/rastelli.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Superstrings in a plane-wave background</string>
+			<key>name</key>
+			<string>John Schwarz (Caltech)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/schwarz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Strings on time dependent orbifolds II</string>
+			<key>name</key>
+			<string>Nathan Seiberg (Rutgers)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/seiberg.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Tachyon dynamics in open string theory</string>
+			<key>name</key>
+			<string>Ashoke Sen (Allahabad and Penn State)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/sen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Inflation as a window into short distance physics</string>
+			<key>name</key>
+			<string>Stephen Shenker (Stanford)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/shenker.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Something from `nothing'</string>
+			<key>name</key>
+			<string>Eva Silverstein (SLAC)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/silverstein.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Supersymmetric completion of the R^4 term in IIB supergravity</string>
+			<key>name</key>
+			<string>Kostas Skenderis (Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/skenderis.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The nature of time in string theory</string>
+			<key>name</key>
+			<string>Andrew Strominger (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Computing tree and loop amplitudes in string field theory</string>
+			<key>name</key>
+			<string>Wati Taylor (MIT)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/taylor.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Semiclassical quantization of superstrings in AdS_5 x S^5</string>
+			<key>name</key>
+			<string>Arkady Tseytlin (Imperial College and Ohio State)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/tseytlin.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Superstrings and topological strings at large N</string>
+			<key>name</key>
+			<string>Cumrun Vafa (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Can string cosmology face the challenge of CMB anisotropies?</string>
+			<key>name</key>
+			<string>Gabriele Veneziano (CERN)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2002/veneziano.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,713 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>conferences</key>
+		<array>
+		<dict>
+			<key>name</key>
+			<string>Anderson</string>
+			<key>annotation</key>
+			<string>Hidden geometry in heterotic string and F-theory compactifications</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Anderson.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Basso</string>
+			<key>annotation</key>
+			<string>Scattering amplitudes at strong coupling beyond the area paradigm</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Basso.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Baumann</string>
+			<key>annotation</key>
+			<string>B-modes and the Nature of Inflation</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Baumann.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bizon</string>
+			<key>annotation</key>
+			<string>Gravitational turbulent instability of AdS</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Bizon.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>de Boer</string>
+			<key>annotation</key>
+			<string>The entropy of a hole in space-time</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/deBoer.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bousso</string>
+			<key>annotation</key>
+			<string>A Proof of the Covariant Bound</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Bousso.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cachazo</string>
+			<key>annotation</key>
+			<string>Scattering Equations</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Cachazo.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casini</string>
+			<key>annotation</key>
+			<string>Entropy inequalities and quantum field theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Casini.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cheng</string>
+			<key>annotation</key>
+			<string>Umbral Moonshine and String Theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Cheng.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chesler</string>
+			<key>annotation</key>
+			<string>A holographic perspective on the Kibble-Zurek mechanism</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Chesler.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Conlon</string>
+			<key>annotation</key>
+			<string>Moduli, a 0.1-1 keV Cosmic Axion Background and the Galaxy Cluster Soft Excess</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Conlon.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cordova</string>
+			<key>annotation</key>
+			<string>Toda CFT from Six Dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Cordova.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cremonini</string>
+			<key>annotation</key>
+			<string>Probing the structure of quantum phases of matter with holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Cremonini.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dabholkar</string>
+			<key>annotation</key>
+			<string>Quantum Black Holes and Quantum Holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Dabholkar.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dolan</string>
+			<key>annotation</key>
+			<string>Amplitudes and the Scattering Equations, Proofs and Polynomials</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Dolan.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Erdmenger</string>
+			<key>annotation</key>
+			<string>Applications of AdS/CFT to high energy and condensed matter physics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Erdmenger.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Esole</string>
+			<key>annotation</key>
+			<string>Singularities and Gauge Theory Phases</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Esole.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Freedman</string>
+			<key>annotation</key>
+			<string>Precision Tests of the AdS/CFT Correspondence</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Freedman.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gaiotto</string>
+			<key>annotation</key>
+			<string>Topological order in N=1 Super Yang Mills theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Gaiotto.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gauntlett</string>
+			<key>annotation</key>
+			<string>Holographic Lattices, Metals and Insulators</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Gauntlett.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gomis</string>
+			<key>annotation</key>
+			<string>Sphere Partition Functions, the Zamolodchikov Metric and Surface Operators</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Gomis.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gopakumar</string>
+			<key>annotation</key>
+			<string>From Higher Spins to Strings</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Gopakumar.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Graham</string>
+			<key>annotation</key>
+			<string>New methods for discovering light fields</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Graham.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Green</string>
+			<key>annotation</key>
+			<string>Through a Glass Darkly</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Green.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gromov</string>
+			<key>annotation</key>
+			<string>Quantum spectral curve and AdS/CFT spectral problem</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Gromov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gross</string>
+			<key>annotation</key>
+			<string>A Perspective on String Theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Gross.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Guica</string>
+			<key>annotation</key>
+			<string>A toy model for the Kerr/CFT correspondence</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Guica.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hanada</string>
+			<key>annotation</key>
+			<string>Monte Carlo approach to string/M-theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Hanada.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hellerman</string>
+			<key>annotation</key>
+			<string>String Theory of the Regge Intercept</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Hellerman.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hubeny</string>
+			<key>annotation</key>
+			<string>Holographic Entanglement</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Hubeny.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kachru</string>
+			<key>annotation</key>
+			<string>Mock Modular Moonshine for M22 and M23</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Klevers</string>
+			<key>annotation</key>
+			<string>Recent Progress on the Abelian Sector of F-theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Klevers.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Komargodski</string>
+			<key>annotation</key>
+			<string>A Cardy-like formula in four dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Komargodski.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kovac</string>
+			<key>annotation</key>
+			<string>Detection of B-mode Polarization at Degree Angular Scales with BICEP2</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Kovac.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kutasov</string>
+			<key>annotation</key>
+			<string>ADE N=1 SUSY Dynamics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Kutasov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sangmin Lee</string>
+			<key>annotation</key>
+			<string>Scattering amplitudes in three dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/SangminLee.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sungjay Lee</string>
+			<key>annotation</key>
+			<string>RR Charge and Gamma Class</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/SunjayLee.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Leigh</string>
+			<key>annotation</key>
+			<string>The Exact Renormalization Group and Higher Spin Holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Leigh.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Liu</string>
+			<key>annotation</key>
+			<string>Entanglement Tsunami</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Liu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mafra</string>
+			<key>annotation</key>
+			<string>The closed-string 3-loop amplitude</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Mafra.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Maldacena</string>
+			<key>annotation</key>
+			<string>Geometry and quantum mechanics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Marchesano</string>
+			<key>annotation</key>
+			<string>F-term axion monodromy inflation</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Marchesano.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Marino</string>
+			<key>annotation</key>
+			<string>Non-perturbative effects in M-theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Marino.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Minahan</string>
+			<key>annotation</key>
+			<string>Three-point correlators from string theory amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Minahan.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Moore</string>
+			<key>annotation</key>
+			<string>Physical Mathematics and the Future</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Moore.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Murugan</string>
+			<key>annotation</key>
+			<string>Meromorphic functions and the topology of giants</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Murugan.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Neitzke</string>
+			<key>annotation</key>
+			<string>A smooth R3 index for N=2 theories in four dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Neitzke.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nekrasov</string>
+			<key>annotation</key>
+			<string>Nonperturbative Dyson-Schwinger identities in gauge theories and sigma models</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Nekrasov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Papadodimas</string>
+			<key>annotation</key>
+			<string>The black hole interior in AdS/CFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Papadodimas.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Polchinski</string>
+			<key>annotation</key>
+			<string>Black Hole Information: Spacetime versus Quantum Mechanics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Polchinski.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>van Raamsdonk</string>
+			<key>annotation</key>
+			<string>Gravitation from Entanglement</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/VanRaamsdonk.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Raju</string>
+			<key>annotation</key>
+			<string>State dependent operators and the information paradox</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Raju.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rastelli</string>
+			<key>annotation</key>
+			<string>The Superconformal Bootstrap</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Rastelli.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sen</string>
+			<key>annotation</key>
+			<string>Mass renormalization and vacuum shift in string theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Sen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Silverstein</string>
+			<key>annotation</key>
+			<string>The powers of monodromy</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Silverstein.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Simmons-Duffin</string>
+			<key>annotation</key>
+			<string>Bootstrapping the 3d Ising Model</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/SimmonsDuffin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Staudacher</string>
+			<key>annotation</key>
+			<string>N=4 Scattering Amplitudes and the Regularized Gra&amp;szlig;mannian</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Staudacher.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Steinhardt</string>
+			<key>annotation</key>
+			<string>What has been learned from BICEP2?</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Steinhardt.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stieberger</string>
+			<key>annotation</key>
+			<string>Unity of tree&amp;ndash;level superstring amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Stieberger.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strominger</string>
+			<key>annotation</key>
+			<string>Quantum Gravity and String Theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sundrum</string>
+			<key>annotation</key>
+			<string>BTZ/CFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Sundrum.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tachikawa</string>
+			<key>annotation</key>
+			<string>Recent advances in SUSY</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Tachikawa.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Takayanagi</string>
+			<key>annotation</key>
+			<string>Quantum Entanglement and Local Operators</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Takayanagi.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tomasiello</string>
+			<key>annotation</key>
+			<string>New gravity duals for higher-dimensional superconformal theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Tomasiello.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tonni</string>
+			<key>annotation</key>
+			<string>Entanglement negativity in conformal field theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Tonni.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Trnka</string>
+			<key>annotation</key>
+			<string>Four-point scattering from Amplituhedron</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Trnka.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tseytlin</string>
+			<key>annotation</key>
+			<string>Strings in AdS and their deformations</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Tseytlin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vafa</string>
+			<key>annotation</key>
+			<string>On 6d SCFT's</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vasiliev</string>
+			<key>annotation</key>
+			<string>Higher-rank fields, currents and higher spin holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Vasiliev.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Warner</string>
+			<key>annotation</key>
+			<string>Resolving Black Holes via Microstate Geometries</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Warner.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Weigand</string>
+			<key>annotation</key>
+			<string>Mordell-Weil torsion and matter spectra in F-theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Weigand.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Zaldarriaga</string>
+			<key>annotation</key>
+			<string>The dawn of B-mode cosmology</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Zaldarriaga.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Frank Ferrari</string>
+			<key>annotation</key>
+			<string>A Quantum Model of Black Hole</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Ferrari.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jonathan Maltz</string>
+			<key>annotation</key>
+			<string>Deconfinement transition as black hole formation by the condensation of QCD strings</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Maltz.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rajesh Gupta</string>
+			<key>annotation</key>
+			<string>Logarithmic Corrections to Black Hole Entropy</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Gupta.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Massimo Taronna</string>
+			<key>annotation</key>
+			<string>On Higher-Spin Symmetries, Cubic Interactions, AdS and CFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Taronna.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Achilleas Porfyriadis</string>
+			<key>annotation</key>
+			<string>Kerr/CFT Signals in the Sky</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Porfyriadis.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Uri Kol</string>
+			<key>annotation</key>
+			<string>The holographic dilaton</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Kol.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alexandre Belin</string>
+			<key>annotation</key>
+			<string>Holographic Phases of Renyi Entropies</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Belin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alexander Patrushev</string>
+			<key>annotation</key>
+			<string>Renyi entropy and spectral geometry</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Patrushev.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jennifer Lin</string>
+			<key>annotation</key>
+			<string>N=1 duality and the Superconformal Index</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Lin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bogdan Stoica</string>
+			<key>annotation</key>
+			<string>Universal Spectrum of 2d Conformal Field Theory in the Large c Limit</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Stoica.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Matias Leoni Olivera</string>
+			<key>annotation</key>
+			<string>On ABJM BDS exponentiation</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Leoni.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tomohisa Takimi</string>
+			<key>annotation</key>
+			<string>Studies on Chern-Simon matter theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Takimi.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alessandro Sfondrini</string>
+			<key>annotation</key>
+			<string>Integrability in AdS</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Sfondrini.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ben Heidenreich</string>
+			<key>annotation</key>
+			<string>Discrete Torsion and Orientifolds</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Heidenreich.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ahmad Zein Assi</string>
+			<key>annotation</key>
+			<string>Topological Amplitudes &amp;amp; the String Effective Action</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/ZeinAssi.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Andrew Royston</string>
+			<key>annotation</key>
+			<string>Soliton Contributions to Perturbative Amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2014/Royston.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

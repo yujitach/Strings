@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33190E4B2273553F00F9D05A /* ylist2012.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E362273553D00F9D05A /* ylist2012.plist */; };
+		33190E4C2273553F00F9D05A /* ylist2015.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E372273553D00F9D05A /* ylist2015.plist */; };
+		33190E4D2273553F00F9D05A /* ylist2018.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E382273553D00F9D05A /* ylist2018.plist */; };
+		33190E4E2273553F00F9D05A /* ylist2014.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E392273553D00F9D05A /* ylist2014.plist */; };
+		33190E4F2273553F00F9D05A /* ylist2017.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E3A2273553D00F9D05A /* ylist2017.plist */; };
+		33190E502273553F00F9D05A /* ylist1999.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E3B2273553D00F9D05A /* ylist1999.plist */; };
+		33190E512273553F00F9D05A /* ylist1998.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E3C2273553E00F9D05A /* ylist1998.plist */; };
+		33190E522273553F00F9D05A /* ylist2001.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E3D2273553E00F9D05A /* ylist2001.plist */; };
+		33190E532273553F00F9D05A /* ylist2000.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E3E2273553E00F9D05A /* ylist2000.plist */; };
+		33190E542273553F00F9D05A /* ylist2003.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E3F2273553E00F9D05A /* ylist2003.plist */; };
+		33190E552273553F00F9D05A /* ylist2011.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E402273553E00F9D05A /* ylist2011.plist */; };
+		33190E562273553F00F9D05A /* ylist2002.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E412273553E00F9D05A /* ylist2002.plist */; };
+		33190E572273553F00F9D05A /* ylist2004.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E422273553E00F9D05A /* ylist2004.plist */; };
+		33190E582273553F00F9D05A /* ylist2006.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E432273553E00F9D05A /* ylist2006.plist */; };
+		33190E592273553F00F9D05A /* ylist2009.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E442273553E00F9D05A /* ylist2009.plist */; };
+		33190E5A2273553F00F9D05A /* ylist2013.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E452273553E00F9D05A /* ylist2013.plist */; };
+		33190E5B2273553F00F9D05A /* ylist2016.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E462273553E00F9D05A /* ylist2016.plist */; };
+		33190E5C2273553F00F9D05A /* ylist2007.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E472273553E00F9D05A /* ylist2007.plist */; };
+		33190E5D2273553F00F9D05A /* ylist2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E482273553F00F9D05A /* ylist2010.plist */; };
+		33190E5E2273553F00F9D05A /* ylist2008.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E492273553F00F9D05A /* ylist2008.plist */; };
+		33190E5F2273553F00F9D05A /* ylist2005.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E4A2273553F00F9D05A /* ylist2005.plist */; };
 		334203C413AD9B13000B8AC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334203C313AD9B13000B8AC6 /* UIKit.framework */; };
 		334203C613AD9B13000B8AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334203C513AD9B13000B8AC6 /* Foundation.framework */; };
 		334203C813AD9B13000B8AC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334203C713AD9B13000B8AC6 /* CoreGraphics.framework */; };
@@ -27,6 +48,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33190E362273553D00F9D05A /* ylist2012.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2012.plist; sourceTree = "<group>"; };
+		33190E372273553D00F9D05A /* ylist2015.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2015.plist; sourceTree = "<group>"; };
+		33190E382273553D00F9D05A /* ylist2018.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2018.plist; sourceTree = "<group>"; };
+		33190E392273553D00F9D05A /* ylist2014.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2014.plist; sourceTree = "<group>"; };
+		33190E3A2273553D00F9D05A /* ylist2017.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2017.plist; sourceTree = "<group>"; };
+		33190E3B2273553D00F9D05A /* ylist1999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist1999.plist; sourceTree = "<group>"; };
+		33190E3C2273553E00F9D05A /* ylist1998.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist1998.plist; sourceTree = "<group>"; };
+		33190E3D2273553E00F9D05A /* ylist2001.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2001.plist; sourceTree = "<group>"; };
+		33190E3E2273553E00F9D05A /* ylist2000.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2000.plist; sourceTree = "<group>"; };
+		33190E3F2273553E00F9D05A /* ylist2003.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2003.plist; sourceTree = "<group>"; };
+		33190E402273553E00F9D05A /* ylist2011.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2011.plist; sourceTree = "<group>"; };
+		33190E412273553E00F9D05A /* ylist2002.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2002.plist; sourceTree = "<group>"; };
+		33190E422273553E00F9D05A /* ylist2004.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2004.plist; sourceTree = "<group>"; };
+		33190E432273553E00F9D05A /* ylist2006.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2006.plist; sourceTree = "<group>"; };
+		33190E442273553E00F9D05A /* ylist2009.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2009.plist; sourceTree = "<group>"; };
+		33190E452273553E00F9D05A /* ylist2013.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2013.plist; sourceTree = "<group>"; };
+		33190E462273553E00F9D05A /* ylist2016.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2016.plist; sourceTree = "<group>"; };
+		33190E472273553E00F9D05A /* ylist2007.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2007.plist; sourceTree = "<group>"; };
+		33190E482273553F00F9D05A /* ylist2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2010.plist; sourceTree = "<group>"; };
+		33190E492273553F00F9D05A /* ylist2008.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2008.plist; sourceTree = "<group>"; };
+		33190E4A2273553F00F9D05A /* ylist2005.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2005.plist; sourceTree = "<group>"; };
 		334203BF13AD9B13000B8AC6 /* Strings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334203C313AD9B13000B8AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		334203C513AD9B13000B8AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +111,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33190E352273551300F9D05A /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				33190E3C2273553E00F9D05A /* ylist1998.plist */,
+				33190E3B2273553D00F9D05A /* ylist1999.plist */,
+				33190E3E2273553E00F9D05A /* ylist2000.plist */,
+				33190E3D2273553E00F9D05A /* ylist2001.plist */,
+				33190E412273553E00F9D05A /* ylist2002.plist */,
+				33190E3F2273553E00F9D05A /* ylist2003.plist */,
+				33190E422273553E00F9D05A /* ylist2004.plist */,
+				33190E4A2273553F00F9D05A /* ylist2005.plist */,
+				33190E432273553E00F9D05A /* ylist2006.plist */,
+				33190E472273553E00F9D05A /* ylist2007.plist */,
+				33190E492273553F00F9D05A /* ylist2008.plist */,
+				33190E442273553E00F9D05A /* ylist2009.plist */,
+				33190E482273553F00F9D05A /* ylist2010.plist */,
+				33190E402273553E00F9D05A /* ylist2011.plist */,
+				33190E362273553D00F9D05A /* ylist2012.plist */,
+				33190E452273553E00F9D05A /* ylist2013.plist */,
+				33190E392273553D00F9D05A /* ylist2014.plist */,
+				33190E372273553D00F9D05A /* ylist2015.plist */,
+				33190E462273553E00F9D05A /* ylist2016.plist */,
+				33190E3A2273553D00F9D05A /* ylist2017.plist */,
+				33190E382273553D00F9D05A /* ylist2018.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
 		334203B413AD9B13000B8AC6 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +172,7 @@
 		334203C913AD9B13000B8AC6 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				33190E352273551300F9D05A /* plists */,
 				33D884D813C4B36A0089CFE7 /* Reachability.h */,
 				33D884D913C4B36A0089CFE7 /* Reachability.m */,
 				334203D213AD9B13000B8AC6 /* StringsAppDelegate.h */,
@@ -190,13 +261,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33190E5A2273553F00F9D05A /* ylist2013.plist in Resources */,
+				33190E5D2273553F00F9D05A /* ylist2010.plist in Resources */,
+				33190E572273553F00F9D05A /* ylist2004.plist in Resources */,
+				33190E532273553F00F9D05A /* ylist2000.plist in Resources */,
+				33190E542273553F00F9D05A /* ylist2003.plist in Resources */,
+				33190E4C2273553F00F9D05A /* ylist2015.plist in Resources */,
 				3354FFD51969BA0800BB9043 /* Entitlements.plist in Resources */,
+				33190E592273553F00F9D05A /* ylist2009.plist in Resources */,
+				33190E5C2273553F00F9D05A /* ylist2007.plist in Resources */,
+				33190E5F2273553F00F9D05A /* ylist2005.plist in Resources */,
+				33190E5E2273553F00F9D05A /* ylist2008.plist in Resources */,
 				334203CE13AD9B13000B8AC6 /* InfoPlist.strings in Resources */,
 				334203D713AD9B13000B8AC6 /* MainWindow.xib in Resources */,
+				33190E522273553F00F9D05A /* ylist2001.plist in Resources */,
+				33190E4B2273553F00F9D05A /* ylist2012.plist in Resources */,
+				33190E4E2273553F00F9D05A /* ylist2014.plist in Resources */,
+				33190E4D2273553F00F9D05A /* ylist2018.plist in Resources */,
 				334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */,
+				33190E4F2273553F00F9D05A /* ylist2017.plist in Resources */,
 				334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */,
+				33190E502273553F00F9D05A /* ylist1999.plist in Resources */,
+				33190E552273553F00F9D05A /* ylist2011.plist in Resources */,
+				33190E582273553F00F9D05A /* ylist2006.plist in Resources */,
+				33190E512273553F00F9D05A /* ylist1998.plist in Resources */,
 				3354FFD319699F7500BB9043 /* Images.xcassets in Resources */,
 				33B427E52272C60500F4387C /* Launch Screen.storyboard in Resources */,
+				33190E562273553F00F9D05A /* ylist2002.plist in Resources */,
+				33190E5B2273553F00F9D05A /* ylist2016.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

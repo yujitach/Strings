@@ -1,0 +1,561 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>conferences</key>
+		<array>
+		<dict>
+			<key>name</key>
+			<string>Francesco Benini</string>
+			<key>annotation</key>
+			<string>Dualities and dynamics in 2+1 dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/91.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Clay Cordova</string>
+			<key>annotation</key>
+			<string>What's new with Q?</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/98.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xi Dong</string>
+			<key>annotation</key>
+			<string>Quantum entanglement in holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/109.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Thomas Hartman</string>
+			<key>annotation</key>
+			<string>Bounds on energy, entropy, and transport</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/114.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>David Morrison</string>
+			<key>annotation</key>
+			<string>Three roads to 4D supersymmetric physics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/126.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ashoke Sen</string>
+			<key>annotation</key>
+			<string>Developments in string field theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/147.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>David Simmons-Duffin</string>
+			<key>annotation</key>
+			<string>Developments in the conformal bootstrap</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/119.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lara Anderson</string>
+			<key>annotation</key>
+			<string>Calabi-Yau fibrations, finiteness and string dualities</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/127.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Philip Argyres</string>
+			<key>annotation</key>
+			<string>Coulomb branches of 4d QFTs</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/100.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tohru Eguchi</string>
+			<key>annotation</key>
+			<string>Introduction to stringy moonshine</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/121.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Thomas Faulkner</string>
+			<key>annotation</key>
+			<string>Modular flow for bulk reconstruction and the QNEC</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/115.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Davide Gaiotto</string>
+			<key>annotation</key>
+			<string>Topological holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/94.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>James Halverson</string>
+			<key>annotation</key>
+			<string>String theory and data science</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/128.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Masanori Hanada</string>
+			<key>annotation</key>
+			<string>Black holes and random matrices II: New universality at early time?</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/131.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sarah Harrison</string>
+			<key>annotation</key>
+			<string>Number theory in string theory: skew mock false, and quantum</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/123.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jeffrey Harvey</string>
+			<key>annotation</key>
+			<string>Umbral and penumbral moonshine</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/122.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Simeon Hellerman</string>
+			<key>annotation</key>
+			<string>Some elementary but surprising properties of quantum field theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/132.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yu-tin Huang</string>
+			<key>annotation</key>
+			<string>Inside the walls of positive geometry: the space of consistent QFTs</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/107.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Igor Klebanov</string>
+			<key>annotation</key>
+			<string>Tensor quantum mechanics at N large and small </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/112.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Zohar Komargodski</string>
+			<key>annotation</key>
+			<string>The vacua of some 2+1 dimensional gauge theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/93.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shota Komatsu</string>
+			<key>annotation</key>
+			<string>Nonplanar correlators in N=4 SYM from integrability</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/108.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Madalena Lemos</string>
+			<key>annotation</key>
+			<string>Bootstrapping 4d N=2 theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/120.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Roberto Longo</string>
+			<key>annotation</key>
+			<string>Modular theory and Bekenstein&amp;#39;s bound</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/116.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Juan Maldacena</string>
+			<key>annotation</key>
+			<string>Traversable wormholes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/111.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gregory Moore</string>
+			<key>annotation</key>
+			<string>Global anomalies in six-dimensional supergravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/133.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Natalie Paquette</string>
+			<key>annotation</key>
+			<string>Boundaries, interfaces, and duality in 3d SCFTs</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/95.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Roji Pius</string>
+			<key>annotation</key>
+			<string>Quantum closed superstrings and hyperbolic geometry</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/105.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Silviu Pufu</string>
+			<key>annotation</key>
+			<string>M-theory S-matrix from 3d SCFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/101.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xiaoliang Qi</string>
+			<key>annotation</key>
+			<string>Eternal traversable wormhole in two dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/110.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shlomo Razamat</string>
+			<key>annotation</key>
+			<string>SCFTs in 6d and IR symmetry enhancement in 4d</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/118.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jorge Santos</string>
+			<key>annotation</key>
+			<string>Connecting the weak gravity conjecture to the weak cosmic censorship</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/113.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nathan Seiberg</string>
+			<key>annotation</key>
+			<string>QED3</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/92.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shu-Heng Shao</string>
+			<key>annotation</key>
+			<string>Beyond symmetry: Topological lines in 2D</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/99.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jaewon Song</string>
+			<key>annotation</key>
+			<string>N=1 Lagrangians for N=2 &amp;quot;Non-Lagrangian&amp;quot; theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/102.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Douglas Stanford</string>
+			<key>annotation</key>
+			<string>A semiclassical ramp in SYK and in gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/97.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Andrew Strominger</string>
+			<key>annotation</key>
+			<string>Progress in soft physics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/106.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Eva Silverstein</string>
+			<key>annotation</key>
+			<string>de Sitter holography and entanglement entropy</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/130.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cumrun Vafa</string>
+			<key>annotation</key>
+			<string>Cosmology and the string swampland</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/96.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Irene Valenzuela</string>
+			<key>annotation</key>
+			<string>Swampland, field distances and naturalness</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/129.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Edward Witten</string>
+			<key>annotation</key>
+			<string>Monotonicity of relative entropy in quantum field theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/117.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Masahito Yamazaki</string>
+			<key>annotation</key>
+			<string>Integrable field theories from 4d Chern-Simons theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/103.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Michael Green</string>
+			<key>annotation</key>
+			<string>50 years of string theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/136.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>John Schwarz</string>
+			<key>annotation</key>
+			<string>50th anniversary</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/135.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gabriele Veneziano</string>
+			<key>annotation</key>
+			<string>Of crises and revolutions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/134.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Juan Maldacena</string>
+			<key>annotation</key>
+			<string>50th anniversary of string theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/137.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shiraz Minwalla</string>
+			<key>annotation</key>
+			<string>Two questions about gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/141.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Eva Silverstein</string>
+			<key>annotation</key>
+			<string>50th anniversary of ST</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/138.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Daniel Harlow</string>
+			<key>annotation</key>
+			<string>Some thoughts on where we are</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/139.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Douglas Stanford</string>
+			<key>annotation</key>
+			<string>Black holes as normal quantum systems</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/142.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xi Yin</string>
+			<key>annotation</key>
+			<string>What is perturbative string theory?</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/140.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>David Gross</string>
+			<key>annotation</key>
+			<string>The future of string theory conferences</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/143.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ksenia Bulycheva</string>
+			<key>annotation</key>
+			<string>SYK model with N=2 supersymmetry</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/71.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shai Chester</string>
+			<key>annotation</key>
+			<string>M-theory S-matrix from 6d CFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/72.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yogesh Dandekar</string>
+			<key>annotation</key>
+			<string>Membrane dynamics and gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/73.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Masazumi Honda</string>
+			<key>annotation</key>
+			<string>Role of complexified supersymmetric solutions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/74.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chang-Tse Hsieh</string>
+			<key>annotation</key>
+			<string>Discrete gauge anomalies revisited</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/75.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Patrick Jefferson</string>
+			<key>annotation</key>
+			<string>SCFTs, compact CY 3-folds, and topological strings</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/76.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sitender Kashyap</string>
+			<key>annotation</key>
+			<string>Equivalence of amplitudes involving massive string states in pure spinor and RNS formalisms</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/77.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Petr Kravchuk</string>
+			<key>annotation</key>
+			<string>Lorentzian inversion formulae and light-ray operators in conformal field theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/78.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Craig Lawrie</string>
+			<key>annotation</key>
+			<string>F is for fiber: Theories of class F and their anomalies</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/79.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alexandru Lupsasca</string>
+			<key>annotation</key>
+			<string>Conformal symmetry in the sky: Polarization whorls from M87 at the event horizon telescope</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/80.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Thomas Mertens</string>
+			<key>annotation</key>
+			<string>The Schwarzian and black hole physics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/82.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Emily Nardoni</string>
+			<key>annotation</key>
+			<string>Structure of anomalies in 4d SCFTs from M5-branes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/83.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Monica Pate</string>
+			<key>annotation</key>
+			<string>Color memory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/85.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ander Retolaza</string>
+			<key>annotation</key>
+			<string>de Sitter from warped anti-D3-branes?</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/86.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bogdan Stoica</string>
+			<key>annotation</key>
+			<string>Bit thread decomposition of holographic entanglement</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/87.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tomonori Ugajin</string>
+			<key>annotation</key>
+			<string>Scrambling and relative entropy</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/88.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Koji Umemoto</string>
+			<key>annotation</key>
+			<string>Holographic entanglement of purification</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/89.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fei Yan</string>
+			<key>annotation</key>
+			<string>Line defect Schur indices, Verlinde algebras and U(1) fixed points</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2018/90.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

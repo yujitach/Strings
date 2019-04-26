@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string>The Search for New Physics at the LHC</string>
+			<key>name</key>
+			<string>O. Buchmuller (CERN)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Buchmuller.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Unveiling the structure of amplitudes in gauge theory and gravity</string>
+			<key>name</key>
+			<string>L. Dixon (SLAC)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Dixon.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Status of the LHC detectors: design, construction,commissioning</string>
+			<key>name</key>
+			<string>J. Engelen (CERN)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Engelen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>LHC Machine Status</string>
+			<key>name</key>
+			<string>L. Evans (CERN)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Evans.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The gauge-string duality and QCD at finite temperature</string>
+			<key>name</key>
+			<string>S. Gubser (Princeton U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Gubser.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String Phenomenology on the eve of the LHC</string>
+			<key>name</key>
+			<string>L. Ibanez (UAM-CSIC)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Ibanez.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Conference Summary</string>
+			<key>name</key>
+			<string>H.  Ooguri (Caltech)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Ooguri.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>BPS Black holes and topological strings: a review</string>
+			<key>name</key>
+			<string>B. Pioline (LPTHE)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Pioline.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Scattering Amplitudes via AdS/CFT</string>
+			<key>name</key>
+			<string>L. Alday (U Utrecht)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Alday.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Fermionic T-Duality    </string>
+			<key>name</key>
+			<string>N. Berkovits (U Sao Paulo)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Berkovits.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>What is the Simplest Quantum Field Theory?</string>
+			<key>name</key>
+			<string>F. Cachazo (Perimeter Inst.)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Cachazo.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Heterotic Standard Models</string>
+			<key>name</key>
+			<string>R. Donagi (U Penn)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Donagi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>S-duality and Boundary Conditions in N=4 SYM</string>
+			<key>name</key>
+			<string>D. Gaiotto (IAS Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Gaiotto.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Maximal Supersymmetry, Duality and Scattering Amplitudes</string>
+			<key>name</key>
+			<string>M. Green (DAMTP)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Green.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Cosmological Unification of String Theories</string>
+			<key>name</key>
+			<string>S. Hellerman (IAS Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Hellerman.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>4-loop perturbative Konishi from AdS_5xS^5 string sigma model</string>
+			<key>name</key>
+			<string>R. Janik (Cracow)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Janik.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String theory and Cosmology</string>
+			<key>name</key>
+			<string>R. Kallosh (Stanford U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Kallosh.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Lagrangians for Multiple M2-branes</string>
+			<key>name</key>
+			<string>N. Lambert (Kings College)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Lambert.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>N=6 Chern Simons matter theories, M2 branes and supergravity</string>
+			<key>name</key>
+			<string>J. Maldacena (IAS Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Remodeling the topological string,     perturbatively and nonperturbatively</string>
+			<key>name</key>
+			<string>M. Marino (U Geneva)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Marino.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Nonlinear Fluid Dynamics from Gravity</string>
+			<key>name</key>
+			<string>S. Minwalla (Tata Institute)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Developments in BPS wall-crossing</string>
+			<key>name</key>
+			<string>G. Moore (Rutgers U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Moore.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Multiple Membrane Dynamics</string>
+			<key>name</key>
+			<string>S. Mukhi (Tata Institute)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Mukhi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Global warming of the de Sitter space</string>
+			<key>name</key>
+			<string>A. Polyakov (Princeton U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Polyakov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Loop Quantum Gravity</string>
+			<key>name</key>
+			<string>C. Rovelli (U Marseille)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Rovelli.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Extremal black holes and    AdS_2/CFT_1 correspondence</string>
+			<key>name</key>
+			<string>A. Sen (Harish-Ch.Inst)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Sen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>General Gauge Mediation</string>
+			<key>name</key>
+			<string>D. Shih (Princeton U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Shih.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Dual superconformal symmetry of  scattering amplitudes in N=4 super-Yang-Mills</string>
+			<key>name</key>
+			<string>E. Sokatchev (LAPTH)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Sokatchev.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Holographic recipes at finite density and low temperature</string>
+			<key>name</key>
+			<string>A. Starinets (IAS Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Starinets.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Integrability of the AdS/CFT System</string>
+			<key>name</key>
+			<string>M. Staudacher (AEI Golm)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Staudacher.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Superstring Amplitudes: Formal Progress and Implications for LHC</string>
+			<key>name</key>
+			<string>S. Stieberger (MPI Munich)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Stieberger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Quantum Gravity in Three Dimensions</string>
+			<key>name</key>
+			<string>A. Strominger (Harvard U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A new infinite class of anti-de Sitter flux vacua</string>
+			<key>name</key>
+			<string>A. Tomasiello (Harvard U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Tomasiello.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>F-theory, GUTs, and the Weak Scale</string>
+			<key>name</key>
+			<string>C. Vafa (Harvard U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Forty years of high energy string collisions</string>
+			<key>name</key>
+			<string>G. Veneziano (CdF, CERN)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Veneziano.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Holographic gauge mediation</string>
+			<key>name</key>
+			<string>H. Verlinde (Princeton U)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Verlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Tadpole Cancellation in the Topological String</string>
+			<key>name</key>
+			<string> J. Walcher (ETH Zurich)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Walcher.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>D-brane instantons in Type II orientifolds</string>
+			<key>name</key>
+			<string>T. Weigand (U Penn)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2008/Weigand.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

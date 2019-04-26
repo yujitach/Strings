@@ -1,0 +1,353 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>conferences</key>
+		<array>
+		<dict>
+			<key>name</key>
+			<string>Schwarz</string>
+			<key>annotation</key>
+			<string>Introduction</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/john_schwarz.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Harvey</string>
+			<key>annotation</key>
+			<string>Summary</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/harvey.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gross</string>
+			<key>annotation</key>
+			<string>Outlook</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/gross.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Arkani-Hamed </string>
+			<key>annotation</key>
+			<string>Space-Time, Quantum Mechanics and Scattering Amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Arkani_Hamed.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hartnoll</string>
+			<key>annotation</key>
+			<string>Recent progress at the holography/condensed matter interface</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Hartnoll.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Minwalla</string>
+			<key>annotation</key>
+			<string>Chern Simons theories with fundamental matter and their bulk duals</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Myers</string>
+			<key>annotation</key>
+			<string>RG Flows, Entanglement and Holography </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Myers.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yi</string>
+			<key>annotation</key>
+			<string>Wall Crossing Redux</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Piljin_Yi.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Berman</string>
+			<key>annotation</key>
+			<string>M-theory and extended geometry</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Berman.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cvetic</string>
+			<key>annotation</key>
+			<string>Global F-Theory Compactifications with Higher Rank Abelian Symmetries</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Cvetic.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Douglas</string>
+			<key>annotation</key>
+			<string>Thoughts on (2,0) theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Douglas.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gaberdiel</string>
+			<key>annotation</key>
+			<string>Large N=4 holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/matthias_gaberdiel.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gukov</string>
+			<key>annotation</key>
+			<string>4d-2d correspondenc4d-2d correspondence</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/sergei_gukov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Harlow</string>
+			<key>annotation</key>
+			<string>On the Quantum Complexity of Hawking Radiation</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/daniel_harlow.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Horowitz</string>
+			<key>annotation</key>
+			<string>General Relativity and the Cuprates</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Horowitz.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jafferis</string>
+			<key>annotation</key>
+			<string>Complex Chern-Simons from M5 branes on the squashed 3-sphere</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Jafferis.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Janik</string>
+			<key>annotation</key>
+			<string>Fluid/gravity duality and hydrodynamics at its limits</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Romulad_Janik.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kachru</string>
+			<key>annotation</key>
+			<string>Calabi-Yau Avatars of Mathieu Moonshine</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/shamit_kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kim</string>
+			<key>annotation</key>
+			<string>The M5-brane superconformal index</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Kim.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Klebanov</string>
+			<key>annotation</key>
+			<string>AdS Description of Induced Higher Spin Gauge Theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/igor_Klebanov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Komargodski</string>
+			<key>annotation</key>
+			<string>Supersymmetry beyond Flat Space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Komargodski.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Landsberg</string>
+			<key>annotation</key>
+			<string>The LHC: Past, Present, and Future </string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Landsberg.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lee</string>
+			<key>annotation</key>
+			<string>S2 Partition Function and Applications</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/sungjay_lee.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Linde</string>
+			<key>annotation</key>
+			<string>Supeconformal Symmetry and Cosmological Attractors</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Linde.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Maldacena</string>
+			<key>annotation</key>
+			<string>Wormholes and entangled states</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/juan_maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Manschot</string>
+			<key>annotation</key>
+			<string>BPS bound states and quivers</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Manschot.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Moore</string>
+			<key>annotation</key>
+			<string>BPS News(Half)Hour</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Moore.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Morrison</string>
+			<key>annotation</key>
+			<string>Gromov-Witten invariants without mirror symmetry</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Morrison.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ooguri</string>
+			<key>annotation</key>
+			<string>Anomalies, Hydrodynamics, and Nonequilibrium Phenomena</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/hirosi_ooguri.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pasquetti</string>
+			<key>annotation</key>
+			<string>3d&amp;5d partition functions as q-CFT correlators</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Pasquetti.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Patanchon</string>
+			<key>annotation</key>
+			<string>Cosmological results from the Planck satellite</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Patanchon.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Polchinski</string>
+			<key>annotation</key>
+			<string>Gauge/Gravity Duality and the Balck Hole Interior</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/joe_polchinski.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rychkov</string>
+			<key>annotation</key>
+			<string>Bootstrap approach to CFT in D dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Rychkov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Seiberg</string>
+			<key>annotation</key>
+			<string>Reading between the lines of 4d gauge theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/nathan_seiberg.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sen</string>
+			<key>annotation</key>
+			<string>String theory at finite coupling</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Ashoke_sen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Silverstein</string>
+			<key>annotation</key>
+			<string>New de Sitter solutions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/eva_silverstein.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Skinner</string>
+			<key>annotation</key>
+			<string>Twistor Strings for N=8 Supergravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Skinner.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strominger</string>
+			<key>annotation</key>
+			<string>Asymptotic Symmetries for Gauge and Gravitational heories in Minkowski Space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Takayanagi</string>
+			<key>annotation</key>
+			<string>Holographic Entanglement Entropy of Excited States</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Takayanagi.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vafa</string>
+			<key>annotation</key>
+			<string>M-strings</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vieira</string>
+			<key>annotation</key>
+			<string>Flux-Tube S-matrix and Spacetime S-matrix</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Vieira.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Witten</string>
+			<key>annotation</key>
+			<string>Why Supersymmetry is Different</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/Witten.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yin</string>
+			<key>annotation</key>
+			<string>Comments on BPS states in N=4 SYM</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2013/xi_yin.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

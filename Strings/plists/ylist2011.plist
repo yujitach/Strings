@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>conferences</key>
+	<array>
+		<dict>
+			<key>annotation</key>
+			<string>Counterterms and E7 Symmetry in N=8 Supergravity</string>
+			<key>name</key>
+			<string>Niklas Beisert (AEI Potsdam)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/beisert.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>N=2 gauge theories and algebras</string>
+			<key>name</key>
+			<string>Sergio Cecotti (SISSA)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/cecotti.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>K3 String Theory, the Largest Mathieu Group, and Holographic Moonshine</string>
+			<key>name</key>
+			<string>Miranda Cheng (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/cheng.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Recent progress on amplitudes</string>
+			<key>name</key>
+			<string>Henriette Elvang (University of Michigan)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/elvang.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Field theories labeled by three-manifolds</string>
+			<key>name</key>
+			<string>Davide Gaiotto (IAS, Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/gaiotto.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Holographic Minimal Models</string>
+			<key>name</key>
+			<string>Rajesh Gopakumar (Harish-Chandra Research Institute, Allahabad)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/gopakumar.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Constructing metastable vacua in Klebanov-Strassler</string>
+			<key>name</key>
+			<string>Mariana Graña (Saclay)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/grana.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Multiloop systematics in pure spinor field theory</string>
+			<key>name</key>
+			<string>Michael Green (Cambridge University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/green.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Warped tunneling</string>
+			<key>name</key>
+			<string>Brian Greene (Columbia University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/greene.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Opening Remarks</string>
+			<key>name</key>
+			<string>David Gross (KITP, Santa Barbara)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/gross.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A-polynomial, B-model, and S-duality</string>
+			<key>name</key>
+			<string>Sergei Gukov (Caltech)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/gukov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Closing Remarks</string>
+			<key>name</key>
+			<string>Jeff Harvey (University of Chicago)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/harvey.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Double Field Theory and Duality</string>
+			<key>name</key>
+			<string>Chris Hull (Imperial College)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/hull.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Lie Algebra Structures in Yang-Mills and Gravity Amplitudes</string>
+			<key>name</key>
+			<string>Henrik Johansson (Saclay)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/johansson.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Recent Results for Holographic Three-Point Functions</string>
+			<key>name</key>
+			<string>Thomas Klose (Uppsala University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/klose.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Chaotic inflation in supergravity</string>
+			<key>name</key>
+			<string>Andrei Linde (Stanford University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/linde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Comments on de Sitter perturbation theory</string>
+			<key>name</key>
+			<string>Juan Maldacena (IAS, Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Exact results and stringy effects in ABJM theory</string>
+			<key>name</key>
+			<string>Marcos Mariño (University of Geneva)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/marino.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>String cosmology</string>
+			<key>name</key>
+			<string>Liam McAllister (Cornell University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/mcallister.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>A Theory of Dissipative Superfluid Hydrodynamics</string>
+			<key>name</key>
+			<string>Shiraz Minwalla (Tata Institute, Mumbai)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Recent Role of (2,0) Theories in Physical Mathematics</string>
+			<key>name</key>
+			<string>Greg Moore (Rutgers University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/moore.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Challenges of beta-deformation</string>
+			<key>name</key>
+			<string>Alexei Morozov (ITEP, Moscow)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/morozov.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Holography and Hydrodynamics</string>
+			<key>name</key>
+			<string>Yaron Oz (Tel Aviv University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/oz.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Exact Results for 't Hooft Loops in Gauge Theories on S^4</string>
+			<key>name</key>
+			<string>Vasily Pestun (Harvard)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/pestun.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Quantum matter and gauge-gravity duality: quantum criticality, superconductivity, and Fermi surfaces</string>
+			<key>name</key>
+			<string>Subir Sachdev (Harvard University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/sachdev.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Recent advances in SUSY</string>
+			<key>name</key>
+			<string>Nathan Seiberg (IAS, Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/seiberg.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>What can black holes tell us about microstates?</string>
+			<key>name</key>
+			<string>Ashoke Sen (Harish-Chandra Research Institute, Allahabad)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/sen.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Integrability in Quantum Theory, and Applications</string>
+			<key>name</key>
+			<string>Samson Shatashvili (Trinity College, Dublin and IHES)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/shatashvili.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Towards Simple de Sitter Vacua</string>
+			<key>name</key>
+			<string>Gary Shiu (University of Wisconsin at Madison)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/shiu.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Holographic Entanglement Entropy and its New Developments</string>
+			<key>name</key>
+			<string>Tadashi Takayanagi (IPMU, the University of Tokyo)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/takayanagi.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Uses of 3d toric varieties</string>
+			<key>name</key>
+			<string>Dimitrios Tsimpis (Université de Lyon)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/tsimpis.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>The Hidden Phase Space of Our Universe</string>
+			<key>name</key>
+			<string>Erik Verlinde (University of Amsterdam)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/verlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Symblifying Scattering Amplitudes in N=4 Yang-Mills</string>
+			<key>name</key>
+			<string>Anastasia Volovich (Brown University)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/volovich.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Three Ways Beyond the Standard Model</string>
+			<key>name</key>
+			<string>Frank Wilczek (MIT)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/wilczek.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>Chern-Simons theory from four dimensions</string>
+			<key>name</key>
+			<string>Edward Witten (IAS, Princeton)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/witten.pdf</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
+			<string>LHC results and prospects from a theorist's viewpoint</string>
+			<key>name</key>
+			<string>Fabio Zwirner (University of Padua)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2011/zwirner.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>
