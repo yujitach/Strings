@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface Chooser : UITableViewController<UINavigationControllerDelegate> {
+@interface Chooser : UITableViewController<UINavigationControllerDelegate,UISearchResultsUpdating> {
     NSArray*array;
+    NSArray*filtArray;
     NSString*name;
+    UISearchController*sc;
 }
 -(Chooser*)initWithDictionary:(NSDictionary*)dict;
 @end

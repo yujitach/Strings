@@ -24,6 +24,7 @@
         if(name){
             self.navigationItem.title=name;
         }
+        sc=[[UISearchController alloc] initWithSearchResultsController:nil];
     }
     return self;
 }
@@ -57,11 +58,22 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:@"openPDF" object:e];
 }
 #pragma mark - View lifecycle
-
+- (BOOL)isFiltering
+{
+    return sc.isActive && ![sc.searchBar.text isEqualToString:@""];
+}
+- (void)updateSearchResultsForSearchController:(UISearchController *)searchController
+{
+    NSString*search=searchController.searchBar.text;
+    filtArray=[array filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"annotation contains[cd] %@ OR name contains[cd] %@",search,search]];
+    [self.tableView reloadData];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    sc.searchResultsUpdater=self;
+    self.navigationItem.searchController=sc;
+    self.definesPresentationContext=YES;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -113,6 +125,9 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
+    if([self isFiltering]){
+        return [filtArray count];
+    }
     return [array count];
 }
 
@@ -126,7 +141,11 @@
     }
     
     // Configure the cell...
-    NSDictionary*entry=array[[indexPath row]];
+    NSArray*a=array;
+    if([self isFiltering]){
+        a=filtArray;
+    }
+    NSDictionary*entry=a[[indexPath row]];
     NSString*nname=entry[@"name"];
     NSString*annotation=entry[@"annotation"];
     NSRange r=[nname rangeOfString:@"("];
