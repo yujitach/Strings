@@ -17,7 +17,7 @@
 }
 @property (nonatomic, strong) IBOutlet UIImageView*imageView;
 @property (nonatomic, strong) IBOutlet UIProgressView*progressView;
-@property (nonatomic, strong) UIPopoverController *popoverController;
+@property (nonatomic, strong) UINavigationController *chooserNavigationController;
 @property (nonatomic, strong) UIPopoverController *sharePopoverController;
 @property (nonatomic, strong) UIBarButtonItem*share;
 

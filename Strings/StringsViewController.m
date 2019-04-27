@@ -11,7 +11,7 @@
 #import "Downloader.h"
 
 @implementation StringsViewController
-@synthesize imageView,popoverController,sharePopoverController,progressView;
+@synthesize imageView,sharePopoverController,progressView;
 @synthesize speaker,currentPDFURL,share;
 
 
@@ -25,9 +25,8 @@
 
 -(IBAction)pop:(UIBarButtonItem*)sender
 {
-    [popoverController presentPopoverFromBarButtonItem:sender
-			      permittedArrowDirections:UIPopoverArrowDirectionUp 
-					      animated:YES];
+    self.chooserNavigationController.popoverPresentationController.barButtonItem=sender;
+    [self presentViewController:self.chooserNavigationController animated:YES completion:nil];
 }
 #pragma mark - Business Logic
 -(UIImage*)imageAtPageNumber:(NSUInteger)pageNumber
@@ -165,7 +164,7 @@
 -(void)openPDF:(NSNotification*)notification
 {
     entry=notification.object;
-    [popoverController dismissPopoverAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     share.enabled=YES;
     self.speaker=entry[@"name"];
     self.navigationItem.title=self.speaker;
@@ -225,9 +224,9 @@
     
     Chooser*chooser=[[Chooser alloc] initWithDictionary:dict];
     UINavigationController*nvc=[[UINavigationController alloc] initWithRootViewController:chooser];
-    UIPopoverController*pc=[[UIPopoverController alloc] initWithContentViewController:nvc];
-    self.popoverController = pc;
-    self.popoverController.contentViewController.preferredContentSize=CGSizeMake(500, 900);
+    nvc.modalPresentationStyle=UIModalPresentationPopover;
+    nvc.preferredContentSize=CGSizeMake(500, 900);
+    self.chooserNavigationController = nvc;
 
     downloaders=[[NSMutableArray alloc] init];
     
