@@ -225,7 +225,7 @@
     Chooser*chooser=[[Chooser alloc] initWithDictionary:dict];
     UINavigationController*nvc=[[UINavigationController alloc] initWithRootViewController:chooser];
     nvc.modalPresentationStyle=UIModalPresentationPopover;
-    nvc.preferredContentSize=CGSizeMake(500, 900);
+//    nvc.preferredContentSize=CGSizeMake(500, 900);
     self.chooserNavigationController = nvc;
 
     downloaders=[[NSMutableArray alloc] init];

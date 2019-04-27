@@ -101,6 +101,11 @@
     }
     [self.tableView reloadData];
 }
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
+{
+    self.navigationController.preferredContentSize=self.tableView.contentSize;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -108,6 +113,7 @@
     self.navigationItem.searchController=sc;
     sc.obscuresBackgroundDuringPresentation=NO;
     self.definesPresentationContext=YES;
+    [self.tableView addObserver:self forKeyPath:@"contentSize" options:NSKeyValueObservingOptionInitial|NSKeyValueObservingOptionNew context:nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -118,6 +124,7 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    [self.tableView removeObserver:self forKeyPath:@"contentSize"];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
