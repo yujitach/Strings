@@ -133,15 +133,29 @@
 {
     [super viewWillAppear:animated];
 }
-
+-(void)keyboardWillShow:(NSNotification*)n
+{
+    /*
+    NSValue*v=n.userInfo[UIKeyboardFrameBeginUserInfoKey];
+    CGRect keyboardSize=[v CGRectValue];
+    self.navigationController.conte=UIEdgeInsetsMake(0, 0, keyboardSize.size.height, 0);
+     */
+}
+-(void)keyboardWillHide:(NSNotification*)n
+{
+    /*self.tableView.contentInset=UIEdgeInsetsZero;*/
+}
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
