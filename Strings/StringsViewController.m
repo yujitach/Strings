@@ -85,7 +85,6 @@
 {
     UIImage*image=[self imageAtPageNumber:currentPage];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
-    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
     [imageView setImage:image];
     self.navigationItem.title=[NSString stringWithFormat:@"%@, %d of %d",self.speaker,(int)currentPage,(int)pages];
 }
@@ -112,7 +111,6 @@
     }    
 }
 -(void)bringupmenu{
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
