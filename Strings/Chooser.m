@@ -104,7 +104,7 @@
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
 {
     if(![self isFiltering]){
-        self.navigationController.preferredContentSize=self.tableView.contentSize;
+ //       self.navigationController.preferredContentSize=self.tableView.contentSize;
     }
 }
 
@@ -112,6 +112,7 @@
 {
     [super viewDidLoad];
     sc.searchResultsUpdater=self;
+    self.navigationController.preferredContentSize=CGSizeMake(500, 900);
 //    self.navigationItem.searchController=sc;
     self.tableView.tableHeaderView=sc.searchBar;
     self.tableView.contentOffset=CGPointMake(0, sc.searchBar.bounds.size.height);
