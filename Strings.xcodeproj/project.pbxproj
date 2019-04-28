@@ -40,7 +40,6 @@
 		334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 334203E913AD9F07000B8AC6 /* Conferences.plist */; };
 		334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 334203EC13ADA7C4000B8AC6 /* Chooser.m */; };
 		3354FFD319699F7500BB9043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3354FFD219699F7500BB9043 /* Images.xcassets */; };
-		3354FFD51969BA0800BB9043 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3354FFD41969BA0800BB9043 /* Entitlements.plist */; };
 		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
 		33B427E52272C60500F4387C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B427E42272C60500F4387C /* Launch Screen.storyboard */; };
 		33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D884D913C4B36A0089CFE7 /* Reachability.m */; };
@@ -85,7 +84,7 @@
 		334203EB13ADA7C4000B8AC6 /* Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chooser.h; sourceTree = "<group>"; };
 		334203EC13ADA7C4000B8AC6 /* Chooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chooser.m; sourceTree = "<group>"; };
 		3354FFD219699F7500BB9043 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3354FFD41969BA0800BB9043 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		33553038227548B00021F758 /* Strings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Strings.entitlements; sourceTree = "<group>"; };
 		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
 		3381F68513ADB8AE00725323 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 		33B427E42272C60500F4387C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Strings/Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -143,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				33B427E42272C60500F4387C /* Launch Screen.storyboard */,
-				3354FFD41969BA0800BB9043 /* Entitlements.plist */,
 				334203C913AD9B13000B8AC6 /* Strings */,
 				334203C213AD9B13000B8AC6 /* Frameworks */,
 				334203C013AD9B13000B8AC6 /* Products */,
@@ -172,6 +170,7 @@
 		334203C913AD9B13000B8AC6 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				33553038227548B00021F758 /* Strings.entitlements */,
 				33190E352273551300F9D05A /* plists */,
 				33D884D813C4B36A0089CFE7 /* Reachability.h */,
 				33D884D913C4B36A0089CFE7 /* Reachability.m */,
@@ -235,6 +234,11 @@
 					334203BE13AD9B13000B8AC6 = {
 						DevelopmentTeam = 95AQ7YKR5A;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -267,7 +271,6 @@
 				33190E532273553F00F9D05A /* ylist2000.plist in Resources */,
 				33190E542273553F00F9D05A /* ylist2003.plist in Resources */,
 				33190E4C2273553F00F9D05A /* ylist2015.plist in Resources */,
-				3354FFD51969BA0800BB9043 /* Entitlements.plist in Resources */,
 				33190E592273553F00F9D05A /* ylist2009.plist in Resources */,
 				33190E5C2273553F00F9D05A /* ylist2007.plist in Resources */,
 				33190E5F2273553F00F9D05A /* ylist2005.plist in Resources */,
@@ -408,7 +411,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -453,7 +455,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
