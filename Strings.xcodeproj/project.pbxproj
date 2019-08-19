@@ -41,6 +41,7 @@
 		334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 334203EC13ADA7C4000B8AC6 /* Chooser.m */; };
 		3354FFD319699F7500BB9043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3354FFD219699F7500BB9043 /* Images.xcassets */; };
 		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
+		338DB0B8230A9A5E00FBF1FF /* ylist2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 338DB0B7230A9A5E00FBF1FF /* ylist2019.plist */; };
 		33B427E52272C60500F4387C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B427E42272C60500F4387C /* Launch Screen.storyboard */; };
 		33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D884D913C4B36A0089CFE7 /* Reachability.m */; };
 		33D884E213C4B49C0089CFE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */; };
@@ -87,6 +88,7 @@
 		33553038227548B00021F758 /* Strings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Strings.entitlements; sourceTree = "<group>"; };
 		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
 		3381F68513ADB8AE00725323 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		338DB0B7230A9A5E00FBF1FF /* ylist2019.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2019.plist; sourceTree = "<group>"; };
 		33B427E42272C60500F4387C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Strings/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		33B427E62272C85C00F4387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		33B427E72272C85C00F4387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/StringsViewController.xib; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				33190E3C2273553E00F9D05A /* ylist1998.plist */,
 				33190E3B2273553D00F9D05A /* ylist1999.plist */,
+				338DB0B7230A9A5E00FBF1FF /* ylist2019.plist */,
 				33190E3E2273553E00F9D05A /* ylist2000.plist */,
 				33190E3D2273553E00F9D05A /* ylist2001.plist */,
 				33190E412273553E00F9D05A /* ylist2002.plist */,
@@ -271,6 +274,7 @@
 				33190E532273553F00F9D05A /* ylist2000.plist in Resources */,
 				33190E542273553F00F9D05A /* ylist2003.plist in Resources */,
 				33190E4C2273553F00F9D05A /* ylist2015.plist in Resources */,
+				338DB0B8230A9A5E00FBF1FF /* ylist2019.plist in Resources */,
 				33190E592273553F00F9D05A /* ylist2009.plist in Resources */,
 				33190E5C2273553F00F9D05A /* ylist2007.plist in Resources */,
 				33190E5F2273553F00F9D05A /* ylist2005.plist in Resources */,
