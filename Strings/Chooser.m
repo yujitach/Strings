@@ -113,11 +113,15 @@
     [super viewDidLoad];
     sc.searchResultsUpdater=self;
     self.navigationController.preferredContentSize=CGSizeMake(500, 900);
-//    self.navigationItem.searchController=sc;
-    self.tableView.tableHeaderView=sc.searchBar;
-    self.tableView.contentOffset=CGPointMake(0, sc.searchBar.bounds.size.height);
+    if(@available(iOS 13,*)){
+        self.navigationItem.searchController=sc;
+    }else{
+        self.tableView.tableHeaderView=sc.searchBar;
+        self.tableView.contentOffset=CGPointMake(0, sc.searchBar.bounds.size.height);
+    }
     sc.obscuresBackgroundDuringPresentation=NO;
     self.definesPresentationContext=YES;
+    self.tableView.opaque=NO;
     [self.tableView addObserver:self forKeyPath:@"contentSize" options:NSKeyValueObservingOptionInitial|NSKeyValueObservingOptionNew context:nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
