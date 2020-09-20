@@ -1,0 +1,209 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>conferences</key>
+		<array>
+		<dict>
+			<key>name</key>
+			<string>Roger Deane</string>
+			<key>annotation</key>
+			<string>Review: First results and potential African expansion of the Event Horizon Telescope</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Deane.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rajesh Gopakumar</string>
+			<key>annotation</key>
+			<string>Deriving the AdS₃/CFT₂ Correspondence</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Gopakumar.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Henry Maxfield</string>
+			<key>annotation</key>
+			<string>JT gravity with defects and 3D gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Maxfield.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Charlotte Kristjansen</string>
+			<key>annotation</key>
+			<string>AdS/dCFT and integrable boundary states</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Kristjansen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cumrun Vafa</string>
+			<key>annotation</key>
+			<string>String Lamppost and the Swampland</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ashoke Sen</string>
+			<key>annotation</key>
+			<string>D-instanton perturbation theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Sen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alexandre Belin</string>
+			<key>annotation</key>
+			<string>New holographic CFTs: finding the needle in the haystack</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Belin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xi Yin</string>
+			<key>annotation</key>
+			<string>D-instanton Calculus in c=1 String Theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Yin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Netta Engelhardt</string>
+			<key>annotation</key>
+			<string>Simple Models of Evaporating Black Holes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Engelhardt.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nathan Seiberg</string>
+			<key>annotation</key>
+			<string>Review: Fractons for Field Theorists and Field Theory of Fractons</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Seiberg.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ibrahima Bah</string>
+			<key>annotation</key>
+			<string>Anomalies of SCFTs and geometric engineering in M-theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Bah.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yifan Wang</string>
+			<key>annotation</key>
+			<string>Taming Defects in N=4 Super-Yang-Mills</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Wang.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Clay Cordova</string>
+			<key>annotation</key>
+			<string>Higher-Group Symmetry and Applications</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Cordova.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shamit Kachru</string>
+			<key>annotation</key>
+			<string>Public Talk: The hidden geometry of spacetime</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Kachru.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shiraz Minwalla</string>
+			<key>annotation</key>
+			<string>Constraints on Tree Level Gravitational Scattering</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Minwalla.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Andrea Puhm</string>
+			<key>annotation</key>
+			<string>Asymptotic symmetries and celestial CFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Puhm.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Joao Penedones</string>
+			<key>annotation</key>
+			<string>Nonperturbative Mellin Amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Penedones.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Charlotte Sleight</string>
+			<key>annotation</key>
+			<string>A Mellin-Barnes Approach to Scattering in de Sitter Space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Sleight.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>David Meltzer</string>
+			<key>annotation</key>
+			<string>Unitarity Methods in AdS/CFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Meltzer.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Juan Maldacena</string>
+			<key>annotation</key>
+			<string>Review: Recent progress on the black hole information paradox</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Suvrat Raju</string>
+			<key>annotation</key>
+			<string>Holographic null infinity and the information paradox in flat space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Raju.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Andrew Strominger</string>
+			<key>annotation</key>
+			<string>Celestial Holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Strominger.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Samir Mathur</string>
+			<key>annotation</key>
+			<string>The VECRO hypothesis</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Mathur.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Geoff Penington</string>
+			<key>annotation</key>
+			<string>Replica Wormholes and the Black Hole Interior</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Penington.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Douglas Stanford</string>
+			<key>annotation</key>
+			<string>Comments on replica wormholes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2020/Stanford.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>
