@@ -39,7 +39,7 @@
     self.navigationController.navigationBar.translucent=YES;
     [self.window makeKeyAndVisible];
     
-    self.reach=[Reachability reachabilityWithHostName:@"www.sns.ias.edu"];
+    self.reach=[Reachability reachabilityWithHostName:@"member.ipmu.jp"];
     [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
     [self.reach startNotifier];
 

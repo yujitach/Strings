@@ -28,6 +28,7 @@
 		33190E5D2273553F00F9D05A /* ylist2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E482273553F00F9D05A /* ylist2010.plist */; };
 		33190E5E2273553F00F9D05A /* ylist2008.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E492273553F00F9D05A /* ylist2008.plist */; };
 		33190E5F2273553F00F9D05A /* ylist2005.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33190E4A2273553F00F9D05A /* ylist2005.plist */; };
+		332363D4272684C200A1A014 /* ylist2021.plist in Resources */ = {isa = PBXBuildFile; fileRef = 332363D3272684C200A1A014 /* ylist2021.plist */; };
 		334203C413AD9B13000B8AC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334203C313AD9B13000B8AC6 /* UIKit.framework */; };
 		334203C613AD9B13000B8AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334203C513AD9B13000B8AC6 /* Foundation.framework */; };
 		334203C813AD9B13000B8AC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334203C713AD9B13000B8AC6 /* CoreGraphics.framework */; };
@@ -70,6 +71,7 @@
 		33190E482273553F00F9D05A /* ylist2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2010.plist; sourceTree = "<group>"; };
 		33190E492273553F00F9D05A /* ylist2008.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2008.plist; sourceTree = "<group>"; };
 		33190E4A2273553F00F9D05A /* ylist2005.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2005.plist; sourceTree = "<group>"; };
+		332363D3272684C200A1A014 /* ylist2021.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2021.plist; sourceTree = "<group>"; };
 		334203BF13AD9B13000B8AC6 /* Strings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334203C313AD9B13000B8AC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		334203C513AD9B13000B8AC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,6 +142,7 @@
 				33190E3A2273553D00F9D05A /* ylist2017.plist */,
 				33190E382273553D00F9D05A /* ylist2018.plist */,
 				33C375B0251787A2006D5156 /* ylist2020.plist */,
+				332363D3272684C200A1A014 /* ylist2021.plist */,
 			);
 			path = plists;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				334203D713AD9B13000B8AC6 /* MainWindow.xib in Resources */,
 				33190E522273553F00F9D05A /* ylist2001.plist in Resources */,
 				33190E4B2273553F00F9D05A /* ylist2012.plist in Resources */,
+				332363D4272684C200A1A014 /* ylist2021.plist in Resources */,
 				33190E4E2273553F00F9D05A /* ylist2014.plist in Resources */,
 				33190E4D2273553F00F9D05A /* ylist2018.plist in Resources */,
 				334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */,
@@ -398,7 +402,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2.3;
+				CURRENT_PROJECT_VERSION = 2.4;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -406,7 +410,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -428,14 +432,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.3;
+				CURRENT_PROJECT_VERSION = 2.4;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -477,14 +481,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.3;
+				CURRENT_PROJECT_VERSION = 2.4;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 2.3;
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b4ff80cb-4ac3-475c-8d71-5922f955dbc0";
