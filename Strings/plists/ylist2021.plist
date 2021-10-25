@@ -1,5 +1,5 @@
-	<?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 	<plist version="1.0">
 	<dict>
 		<key>conferences</key>
@@ -30,9 +30,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Review: Shota Komatsu</string>
+			<string>Shota Komatsu</string>
 			<key>annotation</key>
-			<string>Integrability in AdS/CFT</string>
+			<string>Review: Integrability in AdS/CFT</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/Shota-Komatsu.pdf</string>
 		</dict>
@@ -230,7 +230,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Miranda Cheng, Chiara Nappi, Shruti Paranjape and Silvia Penati</string>
+			<string>Miranda Cheng, Chiara Nappi, Shruti Paranjape, and Silvia Penati</string>
 			<key>annotation</key>
 			<string>Discussion: 4 generations of women in string theory</string>
 			<key>target</key>
@@ -486,7 +486,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Sebastian&amp;nbsp;Mizera</string>
+			<string>Sebastian Mizera</string>
 			<key>annotation</key>
 			<string>Subtle points about saddle points in the S-matrix theory</string>
 			<key>target</key>
@@ -646,9 +646,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Alek Bedroya</string>
+			<key>annotation</key>
+			<string>Gong show: Thermal de Sitter and the swampland</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/1-bedroya.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Akash Goel</string>
 			<key>annotation</key>
-			<string>Towards a string dual of SYK</string>
+			<string>Gong show: Towards a string dual of SYK</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/8-goel.pdf</string>
 		</dict>
@@ -656,15 +664,15 @@
 			<key>name</key>
 			<string>Eduardo Gonzalo</string>
 			<key>annotation</key>
-			<string>New constraints on neutrinos from the swampland</string>
+			<string>Gong show: New constraints on neutrinos from the swampland</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/2-gonzalo.pdf</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Yangrui Hu</string>
+			<string>Yangrui Hu and Hazel Mak</string>
 			<key>annotation</key>
-			<string>Solving a 40-year-old problem: 11D superfield (shared talk)</string>
+			<string>Gong show: Solving a 40-year-old problem: 11D superfield</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/10-HazelYangrui.pdf</string>
 		</dict>
@@ -672,7 +680,7 @@
 			<key>name</key>
 			<string>Jonah Kudler-Flam</string>
 			<key>annotation</key>
-			<string>Distinguishing random states and black holes</string>
+			<string>Gong show: Distinguishing random states and black holes</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/3-kudlerflam.pdf</string>
 		</dict>
@@ -680,23 +688,15 @@
 			<key>name</key>
 			<string>Suman Kundu</string>
 			<key>annotation</key>
-			<string>Bounds on Regge growth of flat space scattering from bounds on chaos</string>
+			<string>Gong show: Bounds on Regge growth of flat space scattering from bounds on chaos</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/5-suman.pdf</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Hazel Mak</string>
-			<key>annotation</key>
-			<string>Solving a 40-year-old problem: 11D superfield (shared talk)</string>
-			<key>target</key>
-			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/10-HazelYangrui.pdf</string>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Sruthi Narayanan</string>
 			<key>annotation</key>
-			<string>State-operator correspondence in celestial conformal field theory</string>
+			<string>Gong show: State-operator correspondence in celestial conformal field theory</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/7-narayanan.pdf</string>
 		</dict>
@@ -704,7 +704,7 @@
 			<key>name</key>
 			<string>Erez Urbach</string>
 			<key>annotation</key>
-			<string>The entanglement entropy of typical pure states and replica wormholes</string>
+			<string>Gong show: The entanglement entropy of typical pure states and replica wormholes</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/4-urbach.pdf</string>
 		</dict>
@@ -712,7 +712,7 @@
 			<key>name</key>
 			<string>Ahmadullah Zahed</string>
 			<key>annotation</key>
-			<string>Quantum field theory and the Bieberbach conjecture</string>
+			<string>Gong show: Quantum field theory and the Bieberbach conjecture</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/6-zahed.pdf</string>
 		</dict>
@@ -720,7 +720,7 @@
 			<key>name</key>
 			<string>Zhenghao Zhong</string>
 			<key>annotation</key>
-			<string>Magnetic quivers and SCFTs</string>
+			<string>Gong show: Magnetic quivers and SCFTs</string>
 			<key>target</key>
 			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2021/9-zhong.pdf</string>
 		</dict>
