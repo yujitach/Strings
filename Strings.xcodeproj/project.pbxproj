@@ -47,6 +47,7 @@
 		33C375B1251787A2006D5156 /* ylist2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33C375B0251787A2006D5156 /* ylist2020.plist */; };
 		33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D884D913C4B36A0089CFE7 /* Reachability.m */; };
 		33D884E213C4B49C0089CFE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */; };
+		33F8D89D28926867006CC5A0 /* ylist2022.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33F8D89C28926867006CC5A0 /* ylist2022.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,7 @@
 		33D884D813C4B36A0089CFE7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		33D884D913C4B36A0089CFE7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		33F8D89C28926867006CC5A0 /* ylist2022.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2022.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		33190E352273551300F9D05A /* plists */ = {
 			isa = PBXGroup;
 			children = (
+				33F8D89C28926867006CC5A0 /* ylist2022.plist */,
 				33190E3C2273553E00F9D05A /* ylist1998.plist */,
 				33190E3B2273553D00F9D05A /* ylist1999.plist */,
 				338DB0B7230A9A5E00FBF1FF /* ylist2019.plist */,
@@ -296,6 +299,7 @@
 				33190E4F2273553F00F9D05A /* ylist2017.plist in Resources */,
 				33C375B1251787A2006D5156 /* ylist2020.plist in Resources */,
 				334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */,
+				33F8D89D28926867006CC5A0 /* ylist2022.plist in Resources */,
 				33190E502273553F00F9D05A /* ylist1999.plist in Resources */,
 				33190E552273553F00F9D05A /* ylist2011.plist in Resources */,
 				33190E582273553F00F9D05A /* ylist2006.plist in Resources */,
