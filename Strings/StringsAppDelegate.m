@@ -37,6 +37,9 @@
      
     self.window.rootViewController = self.navigationController;
     self.navigationController.navigationBar.translucent=YES;
+    if(@available(iOS 13,*)){
+        self.navigationController.navigationBar.backgroundColor=[UIColor systemBackgroundColor];
+    }
     [self.window makeKeyAndVisible];
     
     self.reach=[Reachability reachabilityWithHostName:@"member.ipmu.jp"];
