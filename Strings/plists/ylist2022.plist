@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>conferences</key>
+		<array>
+		<dict>
+			<key>name</key>
+			<string>Emil Martinec</string>
+			<key>annotation</key>
+			<string>The branes behind black holes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Martinec.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Natalie Paquette</string>
+			<key>annotation</key>
+			<string>4d physics from 2d chiral correlators</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Paquette.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Edward Witten</string>
+			<key>annotation</key>
+			<string>An Algebra of Observables for de Sitter Space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Witten.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shira Chapman</string>
+			<key>annotation</key>
+			<string>Holographic Complexity and de Sitter Space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Chapman.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vijay Balasubramanian</string>
+			<key>annotation</key>
+			<string>Complexity, chaos, and black holes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Balasubramanian.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Monica Guica</string>
+			<key>annotation</key>
+			<string>$T\bar T$ deformations and holography: review and open questions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Guica.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Daniel Harlow</string>
+			<key>annotation</key>
+			<string>A theory of the black hole interior</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Harlow.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Maxim Pospelov</string>
+			<key>annotation</key>
+			<string>Dark matter identification efforts</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Pospelov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tom Rudelius</string>
+			<key>annotation</key>
+			<string>Consequences of No Global Symmetries in Quantum Gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Rudelius.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Liam McAllister</string>
+			<key>annotation</key>
+			<string>Small Cosmological Constants in String Theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/McAllister.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Andreas Karch</string>
+			<key>annotation</key>
+			<string>Randall-Sundrum Branes and Holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Karch.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Amit Sever</string>
+			<key>annotation</key>
+			<string>Line Operators in Chern-Simons-Matter Theories and Bosonization in Three Dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Sever.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hong Liu</string>
+			<key>annotation</key>
+			<string>The emergence of space and time in holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Liu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nick Evans</string>
+			<key>annotation</key>
+			<string>Holography for Multi-Representation and Chiral Matter</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Evans.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Luca Iliesiu</string>
+			<key>annotation</key>
+			<string>From statistical mechanics to microstate counting for extremal and near-extremal black holes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Iliesiu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shlomo Razamat</string>
+			<key>annotation</key>
+			<string>News from the higher D SQFT frontier</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Razamat.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>James Sparks</string>
+			<key>annotation</key>
+			<string>Black hole entropy functions and spinning spindles</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Sparks.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Daniel Waldram</string>
+			<key>annotation</key>
+			<string>Fluxes, holography and uses of Exceptional Generalized Geometry</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Waldram.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sara Pasquetti</string>
+			<key>annotation</key>
+			<string>Dualities from dualities: sequential deconfinement &amp;amp; the mirror dualisation algorithm</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Pasquetti.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Juan Maldacena</string>
+			<key>annotation</key>
+			<string>What happens when you look at supersymmetric black holes for a long time?</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dionysios Anninos</string>
+			<key>annotation</key>
+			<string>Concrete Calculables in Quantum dS</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/unavailable.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kostas Skenderis</string>
+			<key>annotation</key>
+			<string>AdS/CFT @ loop order</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Skenderis.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mithat Ünsal</string>
+			<key>annotation</key>
+			<string>Adiabatic continuity, anomaly preserving compactifications, and confinement in Yang-Mills theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Unsal.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Umut Gürsoy</string>
+			<key>annotation</key>
+			<string>Recent developments in gauge-gravity duality applied to quantum many-body systems</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Gursoy.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Eric Perlmutter</string>
+			<key>annotation</key>
+			<string>Finding Gravity in Large N Theory Space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Perlmutter.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Andrew Strominger</string>
+			<key>annotation</key>
+			<string>Top-Down Celestial Holograms</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/unavailable.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alok Laddha</string>
+			<key>annotation</key>
+			<string>Towards Positive Geometry of the massive S matrix</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Laddha.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ana-Maria Raclariu</string>
+			<key>annotation</key>
+			<string>Celestial amplitudes from flat space limits of AdS Witten diagrams</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Raclariu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Michael Walter</string>
+			<key>annotation</key>
+			<string>Quantum information and spacetime</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Walter.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jaroslav Trnka</string>
+			<key>annotation</key>
+			<string>Nonperturbative Amplituhedron Geometries</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Trnka.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>David Kosower</string>
+			<key>annotation</key>
+			<string>Classical Physics from Scattering Amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Kosower.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Francesco Benini</string>
+			<key>annotation</key>
+			<string>Black Hole Microstate Counting in AdS</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Benini.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Zohar Komargodski</string>
+			<key>annotation</key>
+			<string>Line Defects in QFT: an Entropy Function, Conformality, and Constraints from Symmetries</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Komargodski.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aninda Sinha</string>
+			<key>annotation</key>
+			<string>Crossing symmetric dispersion relations</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Sinha.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Emily Nardoni</string>
+			<key>annotation</key>
+			<string>From N=2 supersymmetry to adjoint QCD</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Nardoni.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Seung-Joo Lee</string>
+			<key>annotation</key>
+			<string>On towers of light states at infinite distance</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Lee.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Susanne Reffert</string>
+			<key>annotation</key>
+			<string>The Large-charge expansion</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Reffert.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kantaro Ohmori</string>
+			<key>annotation</key>
+			<string>Non-invertible Symmetry in Our Dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Ohmori.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Iñaki García-Etxebarria</string>
+			<key>annotation</key>
+			<string>Generalised Symmetries from String Theory</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Garcia-Etxebarria.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ahmed Almheiri</string>
+			<key>annotation</key>
+			<string>Joe Polchinski Memoir</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/unavailable.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rajesh Gopakumar</string>
+			<key>annotation</key>
+			<string>Perspectives and Prospects</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/unavailable.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hirosi Ooguri</string>
+			<key>annotation</key>
+			<string>Perspectives and Prospects</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Ooguri.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>
