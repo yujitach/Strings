@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>conferences</key>
+		<array>
+		<dict>
+			<key>name</key>
+			<string>Andrew Strominger</string>
+			<key>annotation</key>
+			<string>Cosmic ER=EPR</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/unavailable.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Atul Sharma</string>
+			<key>annotation</key>
+			<string>Burns holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Sharma.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cumrun Vafa</string>
+			<key>annotation</key>
+			<string>Swampland and a Unification of the Dark Sector</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Vafa.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Irene Valenzuela</string>
+			<key>annotation</key>
+			<string>A universal pattern at infinite field distance</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Valenzuela.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Savas Dimopoulos</string>
+			<key>annotation</key>
+			<string>The Cosmic Neutrino Background: Its distribution on the surface of the Earth and its manipulation on laboratory scales</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Dimopoulos.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hofie Hannesdottir</string>
+			<key>annotation</key>
+			<string>Crossing beyond scattering amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Hannesdottir.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Julio Parra-Martinez</string>
+			<key>annotation</key>
+			<string>Soft theorems: symmetry and geometry</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Parra-Martinez.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sebastian Mizera</string>
+			<key>annotation</key>
+			<string>The Future of the S-matrix (Discussion session)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Mizera.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Simon Caron-Huot</string>
+			<key>annotation</key>
+			<string>The Future of the S-matrix (Discussion session)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Caron-Huot.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Edward Frenkel</string>
+			<key>annotation</key>
+			<string>Feynman's Last Blackboard: From Bethe Ansatz to Langlands Duality</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Frenkel.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ashoke Sen</string>
+			<key>annotation</key>
+			<string>Revisiting logarithmic corrections to supersymmetric black hole entropy</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Sen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lorenz Eberhardt</string>
+			<key>annotation</key>
+			<string>The Virasoro Minimal String</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Eberhardt.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Seok Kim</string>
+			<key>annotation</key>
+			<string>Black hole cohomologies in N=4 Yang-Mills</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Kim.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Daniel Jafferis</string>
+			<key>annotation</key>
+			<string>A tensor model for approximate CFTs</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Jafferis.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nathan Seiberg</string>
+			<key>annotation</key>
+			<string>Emanant symmetries</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Seiberg.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Clay Cordova</string>
+			<key>annotation</key>
+			<string>Non-Invertible Symmetry, Duality, and Anomalies</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Cordova.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Miranda Cheng</string>
+			<key>annotation</key>
+			<string>Strings, QFT, and Mathematics (Discussion Session)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Cheng.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sakura Schäfer-Nameki</string>
+			<key>annotation</key>
+			<string>Strings, QFT, and Mathematics (Discussion Session)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Schafer-Nameki.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xiao-Gang Wen</string>
+			<key>annotation</key>
+			<string>Symmetry/Topological-Order correspondence -- from string theory to condensed matter physics</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Wen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ingmar Saberi</string>
+			<key>annotation</key>
+			<string>Six- and eleven-dimensional theories via superspace torsion and Poisson brackets</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Saberi.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gonzalo Torroba</string>
+			<key>annotation</key>
+			<string>Irreversibility, QNEC, and defects</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Torroba.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Beatrix Mühlmann</string>
+			<key>annotation</key>
+			<string>dS_2 supergravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Muhlmann.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Suvrat Raju</string>
+			<key>annotation</key>
+			<string>The Hilbert space and holography of information in de Sitter quantum gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Raju.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aron Wall</string>
+			<key>annotation</key>
+			<string>Off Shell Strings and Black Hole Entropy</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Wall.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grant Remmen</string>
+			<key>annotation</key>
+			<string>Bespoke Dual Resonance</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Remmen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>John Preskill</string>
+			<key>annotation</key>
+			<string>Learning in a quantum world</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Preskill.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alexander Zhiboedov</string>
+			<key>annotation</key>
+			<string>Regge sum rules and stringy amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Zhiboedov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Netta Engelhardt</string>
+			<key>annotation</key>
+			<string>Algebraic ER=EPR</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Engelhardt.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Juan Maldacena</string>
+			<key>annotation</key>
+			<string>The meaning of spacetime: Black holes, wormholes and quantum entanglement (Public Talk)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Maldacena.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Anton Kapustin</string>
+			<key>annotation</key>
+			<string>Life on the Lattice (Discussion Session)</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Kapustin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Edward Witten</string>
+			<key>annotation</key>
+			<string>A Background Independent Algebra for Quantum Gravity?</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Witten.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gautam Satishchandran</string>
+			<key>annotation</key>
+			<string>Infrared Aspects of QFT and Quantum Gravity: Scattering and Coherence</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Satishchandran.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruth Shir</string>
+			<key>annotation</key>
+			<string>A holographic dual for Krylov complexity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Shir.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Henry Lin</string>
+			<key>annotation</key>
+			<string>A fake explanation of sub-maximal chaos</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Lin.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hirosi Ooguri</string>
+			<key>annotation</key>
+			<string>Closing Remarks</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2023/Ooguri.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

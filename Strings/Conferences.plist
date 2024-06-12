@@ -8,6 +8,14 @@
 	<array>
 		<dict>
 			<key>annotation</key>
+			<string>Perimeter Institute</string>
+			<key>name</key>
+			<string>Strings 2023</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2023.plist</string>
+		</dict>
+		<dict>
+			<key>annotation</key>
 			<string>Vienna</string>
 			<key>name</key>
 			<string>Strings 2022</string>

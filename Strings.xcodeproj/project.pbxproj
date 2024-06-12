@@ -40,6 +40,7 @@
 		334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334203DB13AD9B13000B8AC6 /* StringsViewController.xib */; };
 		334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */ = {isa = PBXBuildFile; fileRef = 334203E913AD9F07000B8AC6 /* Conferences.plist */; };
 		334203ED13ADA7C4000B8AC6 /* Chooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 334203EC13ADA7C4000B8AC6 /* Chooser.m */; };
+		3354505B2AA1AA0D000CAE63 /* ylist2023.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3354505A2AA1AA0D000CAE63 /* ylist2023.plist */; };
 		3354FFD319699F7500BB9043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3354FFD219699F7500BB9043 /* Images.xcassets */; };
 		3381F68613ADB8AE00725323 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381F68513ADB8AE00725323 /* Downloader.m */; };
 		338DB0B8230A9A5E00FBF1FF /* ylist2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 338DB0B7230A9A5E00FBF1FF /* ylist2019.plist */; };
@@ -88,6 +89,7 @@
 		334203E913AD9F07000B8AC6 /* Conferences.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Conferences.plist; sourceTree = "<group>"; };
 		334203EB13ADA7C4000B8AC6 /* Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chooser.h; sourceTree = "<group>"; };
 		334203EC13ADA7C4000B8AC6 /* Chooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chooser.m; sourceTree = "<group>"; };
+		3354505A2AA1AA0D000CAE63 /* ylist2023.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ylist2023.plist; sourceTree = "<group>"; };
 		3354FFD219699F7500BB9043 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33553038227548B00021F758 /* Strings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Strings.entitlements; sourceTree = "<group>"; };
 		3381F68413ADB8AE00725323 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		33190E352273551300F9D05A /* plists */ = {
 			isa = PBXGroup;
 			children = (
+				3354505A2AA1AA0D000CAE63 /* ylist2023.plist */,
 				33F8D89C28926867006CC5A0 /* ylist2022.plist */,
 				33190E3C2273553E00F9D05A /* ylist1998.plist */,
 				33190E3B2273553D00F9D05A /* ylist1999.plist */,
@@ -282,6 +285,7 @@
 				33190E572273553F00F9D05A /* ylist2004.plist in Resources */,
 				33190E532273553F00F9D05A /* ylist2000.plist in Resources */,
 				33190E542273553F00F9D05A /* ylist2003.plist in Resources */,
+				3354505B2AA1AA0D000CAE63 /* ylist2023.plist in Resources */,
 				33190E4C2273553F00F9D05A /* ylist2015.plist in Resources */,
 				338DB0B8230A9A5E00FBF1FF /* ylist2019.plist in Resources */,
 				33190E592273553F00F9D05A /* ylist2009.plist in Resources */,
@@ -406,7 +410,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2.5;
+				CURRENT_PROJECT_VERSION = 2.6;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -414,15 +418,14 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -438,23 +441,22 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.5;
+				CURRENT_PROJECT_VERSION = 2.6;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -484,28 +486,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Strings/Strings.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.5;
+				CURRENT_PROJECT_VERSION = 2.6;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 2.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b4ff80cb-4ac3-475c-8d71-5922f955dbc0";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = YES;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
