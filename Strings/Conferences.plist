@@ -6,6 +6,14 @@
 	<string>Strings</string>
 	<key>conferences</key>
 	<array>
+            <dict>
+                <key>annotation</key>
+                <string>CERN</string>
+                <key>name</key>
+                <string>Strings 2024</string>
+                <key>target</key>
+                <string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/ylist2024.plist</string>
+            </dict>
 		<dict>
 			<key>annotation</key>
 			<string>Perimeter Institute</string>
