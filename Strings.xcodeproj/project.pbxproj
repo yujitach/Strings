@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,6 +46,7 @@
 		338DB0B8230A9A5E00FBF1FF /* ylist2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 338DB0B7230A9A5E00FBF1FF /* ylist2019.plist */; };
 		3396609C2C195FE6001DA007 /* ylist2024.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3396609B2C195FE6001DA007 /* ylist2024.plist */; };
 		33B427E52272C60500F4387C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B427E42272C60500F4387C /* Launch Screen.storyboard */; };
+		33BCF7B92E4F735C00ED2F5F /* ylist2025.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33BCF7B82E4F735B00ED2F5F /* ylist2025.plist */; };
 		33C375B1251787A2006D5156 /* ylist2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33C375B0251787A2006D5156 /* ylist2020.plist */; };
 		33D884DA13C4B36A0089CFE7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D884D913C4B36A0089CFE7 /* Reachability.m */; };
 		33D884E213C4B49C0089CFE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D884E113C4B49C0089CFE7 /* SystemConfiguration.framework */; };
@@ -100,6 +101,7 @@
 		33B427E42272C60500F4387C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Strings/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		33B427E62272C85C00F4387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		33B427E72272C85C00F4387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/StringsViewController.xib; sourceTree = "<group>"; };
+		33BCF7B82E4F735B00ED2F5F /* ylist2025.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ylist2025.plist; sourceTree = "<group>"; };
 		33C375B0251787A2006D5156 /* ylist2020.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ylist2020.plist; sourceTree = "<group>"; };
 		33D884D813C4B36A0089CFE7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		33D884D913C4B36A0089CFE7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		33190E352273551300F9D05A /* plists */ = {
 			isa = PBXGroup;
 			children = (
+				33BCF7B82E4F735B00ED2F5F /* ylist2025.plist */,
 				3396609B2C195FE6001DA007 /* ylist2024.plist */,
 				3354505A2AA1AA0D000CAE63 /* ylist2023.plist */,
 				33F8D89C28926867006CC5A0 /* ylist2022.plist */,
@@ -246,7 +249,8 @@
 		334203B613AD9B13000B8AC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
 				ORGANIZATIONNAME = "東京大学";
 				TargetAttributes = {
 					334203BE13AD9B13000B8AC6 = {
@@ -304,6 +308,7 @@
 				33190E4D2273553F00F9D05A /* ylist2018.plist in Resources */,
 				334203DD13AD9B13000B8AC6 /* StringsViewController.xib in Resources */,
 				33190E4F2273553F00F9D05A /* ylist2017.plist in Resources */,
+				33BCF7B92E4F735C00ED2F5F /* ylist2025.plist in Resources */,
 				33C375B1251787A2006D5156 /* ylist2020.plist in Resources */,
 				334203EA13AD9F07000B8AC6 /* Conferences.plist in Resources */,
 				33F8D89D28926867006CC5A0 /* ylist2022.plist in Resources */,
@@ -371,6 +376,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -391,6 +397,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -414,15 +421,15 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2.7;
+				CURRENT_PROJECT_VERSION = 2.8;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 2.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -445,14 +452,14 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.7;
+				CURRENT_PROJECT_VERSION = 2.8;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 2.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -471,6 +478,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -496,14 +504,14 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2.7;
+				CURRENT_PROJECT_VERSION = 2.8;
 				DEVELOPMENT_TEAM = 95AQ7YKR5A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Strings/Strings-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Strings/Strings-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 2.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yujitach.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b4ff80cb-4ac3-475c-8d71-5922f955dbc0";

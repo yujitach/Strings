@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>conferences</key>
+		<array>
+		<dict>
+			<key>name</key>
+			<string>John McGreevy</string>
+			<key>annotation</key>
+			<string>The Landau Paradigm: generalized symmetries in condensed matter</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/John-McGreevy.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Maissam Barkeshli</string>
+			<key>annotation</key>
+			<string>Symmetry - enriched phases of matter and higher categorical structures</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Maissam-Barkeshli.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xie Chen</string>
+			<key>annotation</key>
+			<string>Generalized symmetry and beyond Landau phase transitions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Xie-Chen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meng Cheng</string>
+			<key>annotation</key>
+			<string>UV-IR matching of symmetries and anomalies in condensed matter</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Meng-Cheng.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Edward Witten</string>
+			<key>annotation</key>
+			<string>Algebras in Quantum Field Theory and Gravity: An Overview</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Edward-Witten.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chris Fewster</string>
+			<key>annotation</key>
+			<string>Type change and quantum reference frames</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Chris-Fewster.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nima Lashkari</string>
+			<key>annotation</key>
+			<string>From algebras to Stringy AdS and Causal Structure</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Nima-Lashkari.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hong Liu</string>
+			<key>annotation</key>
+			<string>Emergent causality and the stringy regime</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Hong-Liu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alexander Zhiboedov</string>
+			<key>annotation</key>
+			<string>UV constraints on gravitational EFTs</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Alexander-Zhiboedov.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yu-tin Huang</string>
+			<key>annotation</key>
+			<string>Tree-level completions of gravitational amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Yu-tin-Huang.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Francesco Riva</string>
+			<key>annotation</key>
+			<string>Phenomenology of UV-IR relations</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Francesco-Riva.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Irene Valenzuela</string>
+			<key>annotation</key>
+			<string>Connections between Swampland and Bootstrap</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Irene-Valenzuela.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Anshuman Maharana</string>
+			<key>annotation</key>
+			<string>String Cosmology</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Anshuman-Maharana.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ed Copeland</string>
+			<key>annotation</key>
+			<string>String cosmology - consequences of evolving moduli fields after inflation</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Ed-Copeland.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Paolo Creminelli</string>
+			<key>annotation</key>
+			<string>The beginning of inflation</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Paolo-Creminelli.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Naomi Gendler</string>
+			<key>annotation</key>
+			<string>String Cosmology: Axions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Naomi-Gendler.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Song He</string>
+			<key>annotation</key>
+			<string>Surfaceology for string/particle amplitudes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Song-He.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lorenzo Di Pietro</string>
+			<key>annotation</key>
+			<string>Exploring Confinement in Anti-de Sitter Space</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Lorenzo-Di-Pietro.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Julio Parra Martinez</string>
+			<key>annotation</key>
+			<string>Exact tidal anomalous dimensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Julio-Parra-Martinez.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pedro Vieira</string>
+			<key>annotation</key>
+			<string>Huge Operators</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Pedro-Vieira.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Clay Cordova</string>
+			<key>annotation</key>
+			<string>Representation Theory of Solitons</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Clay-Cordova.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Daniel Grumiller</string>
+			<key>annotation</key>
+			<string>Carroll physics and flat space holography</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Daniel-Grumiller.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Thomas Grimm</string>
+			<key>annotation</key>
+			<string>Tameness and Complexity in QFTs and the Landscape</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Thomas-Grimm.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Alejandra Castro</string>
+			<key>annotation</key>
+			<string>Aspects of de Sitter quantum gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Alejandra-Castro.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yiming Chen</string>
+			<key>annotation</key>
+			<string>Toy models of fortuity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Yiming-Chen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shu-Heng Shao</string>
+			<key>annotation</key>
+			<string>Schwinger's anomaly from the lattice</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Shu-Heng-Shao.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ana-Maria Raclariu</string>
+			<key>annotation</key>
+			<string>An infrared boundary action in asymptotically flat spacetimes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Ana-Maria-Raclariu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gonzalo Torroba</string>
+			<key>annotation</key>
+			<string>Time-like boundaries, holography, and cosmology</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Gonzalo-Torroba.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Yu Nakayama</string>
+			<key>annotation</key>
+			<string>Scale vs Conformal in Non-Linear Sigma Model, Dipolar magnet and Parisi-Sourlas supertranslation</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Yu-Nakayama.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Heeyeon Kim</string>
+			<key>annotation</key>
+			<string>Rational vertex operator algebras from supersymmetric field theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Heeyeon-Kim.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tin Sulejmanpasic</string>
+			<key>annotation</key>
+			<string>Abelian Chern-Simons theory on the lattice</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Tin-Sulejmanpasic.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Natalie Paquette</string>
+			<key>annotation</key>
+			<string>Chiral algebras from twistorial quantum field theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Natalie-Paquette.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dionysios Anninos</string>
+			<key>annotation</key>
+			<string>Finite boundaries in theories of gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Dionysios-Anninos.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Elli Pomoni</string>
+			<key>annotation</key>
+			<string>Exploring thermal CFTs</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Elli-Pomoni.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sandip Trivedi</string>
+			<key>annotation</key>
+			<string>JT gravity in deSitter Space and Extensions</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Sandip-Trivedi.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Luca Iliesiu</string>
+			<key>annotation</key>
+			<string>How the Hilbert space of two-sided black holes factorises</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Luca-Iliesiu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javier Magan</string>
+			<key>annotation</key>
+			<string>Modular invariance, completeness and selection rules in 2d CFTs</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Javier-Magan.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Herman Verlinde</string>
+			<key>annotation</key>
+			<string>Dual perspectives on double scaled SYK</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Herman-Verlinde.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ronak Soni</string>
+			<key>annotation</key>
+			<string>The Holographic Covariant Entropy Bound</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Ronak-Soni.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Kristan Jensen</string>
+			<key>annotation</key>
+			<string>Non-perturbative de Sitter JT gravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Kristan-Jensen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Janet Hung</string>
+			<key>annotation</key>
+			<string>Building Up Quantum Spacetimes with BCFT Tensor Networks and Symmetric Quantum RG</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Janet-Hung.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Leonard Susskind</string>
+			<key>annotation</key>
+			<string>A Surprising Parallel Between Large N QCD and Double Scaled SYK at Infinite Temperature: The 'tHooft Limit and the Fixed g Limit</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Leonard-Susskind.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Geoff Penington</string>
+			<key>annotation</key>
+			<string>The evaporation of charged black holes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Geoff-Penington.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Eric Perlmutter</string>
+			<key>annotation</key>
+			<string>An Analytic Language for 2D CFT</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Eric-Perlmutter.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ashoke Sen</string>
+			<key>annotation</key>
+			<string>D-instanton induced effective action and its gauge invariance</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Ashoke-Sen.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lara Anderson</string>
+			<key>annotation</key>
+			<string>Geometric Transitions in N=1 Theories</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Lara-Anderson.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jim Halverson</string>
+			<key>annotation</key>
+			<string>Field Theory and Neural Networks</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Jim-Halverson.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shota Komatsu</string>
+			<key>annotation</key>
+			<string>Einstein Gravity from Matrix Integral</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Shota-Komatsu.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hee-Cheol Kim</string>
+			<key>annotation</key>
+			<string>Finite Landscape of 6d N=(1,0) Supergravity</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Hee-Cheol-Kim.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>G. Bruno De Luca</string>
+			<key>annotation</key>
+			<string>Landscapes</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/G-Bruno-De-Luca.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Masahito Yamazaki</string>
+			<key>annotation</key>
+			<string>Crystal Melting and Quiver Algebras</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Masahito-Yamazaki.pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vishnu Jejjala</string>
+			<key>annotation</key>
+			<string>Calabi-Yau Metrics and Yukawa Couplings</string>
+			<key>target</key>
+			<string>http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2025/Vishnu-Jejjala.pdf</string>
+		</dict>
+	</array>
+</dict>
+</plist>
